@@ -274,7 +274,7 @@ repository:
       (?x)
         (?:
           (?:^|\G) \s* (?# '\G' is necessary for ST)
-          ((?:>>>|\.\.\.) \s) (?=\s*\S)
+          ((?:>>>|\.\.\.|\.\.\.\.:|sage:) \s)
         )
     captures:
       '1': {name: keyword.control.flow.python}
@@ -507,9 +507,9 @@ repository:
             )
           (?!\s*:)\b
 
-          | (<< | >> | & | \| | \^ | ~)                          (?# 3)
+          | (<< | >> | & | \| | \^\^ | ~)                        (?# 3)
 
-          | (\*\* | \* | \+ | - | % | // | / | @)                (?# 4)
+          | (\*\* | \* | \+ | - | % | // | / | @ | \^)           (?# 4)
 
           | (!= | == | >= | <= | < | >)                          (?# 5)
 
@@ -529,6 +529,8 @@ repository:
         match: ":"
       - name: punctuation.separator.element.python
         match: ","
+      - name: punctuation.separator.ellipsis
+        match: "\.\."
 
   literal:
     patterns:
@@ -563,64 +565,67 @@ repository:
           ) (?: [eE][+-]?[0-9](?: _?[0-9] )* )?
           |
           [0-9](?: _?[0-9] )* (?: [eE][+-]?[0-9](?: _?[0-9] )* )
-        )([jJ])?\b
+        )([jJ][rR]? | [rR][jJ]?)?\b
     captures:
-      '1': {name: storage.type.imaginary.number.python}
+      '1': {name: storage.type.number.python}
 
   number-dec:
     name: constant.numeric.dec.python
     match: |
       (?x)
-        (?<![\w\.])(?:
+        (?:(?<=\.\.)|(?<![\w\.]))(?:
             [1-9](?: _?[0-9] )*
             |
             0+
             |
-            [0-9](?: _?[0-9] )* ([jJ])
+            [0-9](?: _?[0-9] )* ([jJ][rR]? | [rR][jJ]?)
             |
             0 ([0-9]+)(?![eE\.])
         )\b
     captures:
-      '1': {name: storage.type.imaginary.number.python}
+      '1': {name: storage.type.number.python}
       '2': {name: invalid.illegal.dec.python}
 
   number-hex:
     name: constant.numeric.hex.python
     match: |
       (?x)
-        (?<![\w\.])
-          (0[xX]) (_?[0-9a-fA-F])+
+        (?:(?<=\.\.)|(?<![\w\.]))
+          (0[xX]) (_?[0-9a-fA-F])+ ([rR])?
         \b
     captures:
       '1': {name: storage.type.number.python}
+      '3': {name: storage.type.number.python}
 
   number-oct:
     name: constant.numeric.oct.python
     match: |
       (?x)
-        (?<![\w\.])
-          (0[oO]) (_?[0-7])+
+        (?:(?<=\.\.)|(?<![\w\.]))
+          (0[oO]) (_?[0-7])+ ([rR])?
         \b
     captures:
       '1': {name: storage.type.number.python}
+      '3': {name: storage.type.number.python}
 
   number-bin:
     name: constant.numeric.bin.python
     match: |
       (?x)
-        (?<![\w\.])
-          (0[bB]) (_?[01])+
+        (?:(?<=\.\.)|(?<![\w\.]))
+          (0[bB]) (_?[01])+ ([rR])?
         \b
     captures:
       '1': {name: storage.type.number.python}
+      '3': {name: storage.type.number.python}
 
   number-long:
     name: constant.numeric.bin.python
     comment: this is to support python2 syntax for long ints
     match: |
       (?x)
-        (?<![\w\.])
-          ([1-9][0-9]* | 0) ([lL])
+        (?:(?<=\.\.)|(?<![\w\.]))
+          ([1-9][0-9]* | 0) ([lL][rR]? | [rR][lL]?)
         \b
     captures:
       '2': {name: storage.type.number.python}
