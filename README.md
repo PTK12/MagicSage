@@ -17,6 +17,7 @@ Differences:
 - Sage ellipsis
 - `^^` as a logical operator
 - `^` as an arithmetic operator
+- `\` as an arithmetic operator!!
 
 For information about Python, see the [original page](https://github.com/MagicStack/MagicPython).
 
