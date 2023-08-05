@@ -22,5 +22,5 @@ For information about Python, see the [original page](https://github.com/MagicSt
 
 ## Problems
 
-Implicit multiplication are currently unsupported.
+Implicit multiplication is currently unsupported.
 MagicSage currently does not have extensions set up for VS Code, Atom or Sublime Text.
