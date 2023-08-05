@@ -14,8 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: Run everything
-      run: make new-all
+    - name: Setup and Build
+      run: make all
 
     - name: Test
       run: make test
