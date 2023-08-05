@@ -16,3 +16,8 @@ jobs:
 
     - name: Run everything
       run: make all
+
+    - uses: actions/upload-artifact@v3
+      with:
+        name: root
+        path: /
