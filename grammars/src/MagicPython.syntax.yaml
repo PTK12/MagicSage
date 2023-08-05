@@ -1,8 +1,6 @@
 ---
 name: MagicPython
 scopeName: source.python
-# NOTE: remember to update package.json with VSCode file types.
-firstLineMatch: ^#![ \t]*/.*\bpython[\d\.]*\b
 uuid: 742deb57-6e38-4192-bed6-410746efd85d
 
 patterns:
