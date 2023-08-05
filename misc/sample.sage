@@ -1,4 +1,3 @@
-
 R.<x,y> = PolynomialRing(ZZ, 'x,y')
 F.<a> = GF(2 ^ 8)
 
