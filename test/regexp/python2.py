@@ -6,21 +6,21 @@ a = r'
 
 
 
-a             : source.python
-              : source.python
-=             : keyword.operator.assignment.python, source.python
-              : source.python
-r             : source.python, storage.type.string.python, string.regexp.quoted.single.python
-'             : punctuation.definition.string.begin.python, source.python, string.regexp.quoted.single.python
-              : invalid.illegal.newline.python, source.python, string.regexp.quoted.single.python
-              : source.python
-(             : punctuation.parenthesis.begin.python, source.python
-?             : invalid.illegal.operator.python, source.python
-x             : source.python
-)             : punctuation.parenthesis.end.python, source.python
-              : source.python
-foo           : source.python
-'             : punctuation.definition.string.begin.python, source.python, string.quoted.docstring.single.python
-              : invalid.illegal.newline.python, source.python, string.quoted.docstring.single.python
-#             : comment.line.number-sign.python, punctuation.definition.comment.python, source.python
- comment      : comment.line.number-sign.python, source.python
+a             : source.sage
+              : source.sage
+=             : keyword.operator.assignment.python, source.sage
+              : source.sage
+r             : source.sage, storage.type.string.python, string.regexp.quoted.single.python
+'             : punctuation.definition.string.begin.python, source.sage, string.regexp.quoted.single.python
+              : invalid.illegal.newline.python, source.sage, string.regexp.quoted.single.python
+              : source.sage
+(             : punctuation.parenthesis.begin.python, source.sage
+?             : invalid.illegal.operator.python, source.sage
+x             : source.sage
+)             : punctuation.parenthesis.end.python, source.sage
+              : source.sage
+foo           : source.sage
+'             : punctuation.definition.string.begin.python, source.sage, string.quoted.docstring.single.python
+              : invalid.illegal.newline.python, source.sage, string.quoted.docstring.single.python
+#             : comment.line.number-sign.python, punctuation.definition.comment.python, source.sage
+ comment      : comment.line.number-sign.python, source.sage

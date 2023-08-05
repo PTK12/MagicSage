@@ -4,27 +4,27 @@ def foo(): pass
 
 
 
-anon          : source.python
-              : source.python
-=             : keyword.operator.assignment.python, source.python
-              : source.python
-lambda        : meta.lambda-function.python, source.python, storage.type.function.lambda.python
-              : meta.function.lambda.parameters.python, meta.lambda-function.python, source.python
-a             : meta.function.lambda.parameters.python, meta.lambda-function.python, source.python, variable.parameter.function.language.python
-,             : meta.function.lambda.parameters.python, meta.lambda-function.python, punctuation.separator.parameters.python, source.python
-              : meta.lambda-function.python, source.python
-               : source.python
-d             : source.python
-=             : keyword.operator.assignment.python, source.python
-1             : constant.numeric.dec.python, source.python
-:             : punctuation.separator.colon.python, source.python
-              : source.python
-None          : constant.language.python, source.python
-def           : meta.function.python, source.python, storage.type.function.python
-              : meta.function.python, source.python
-foo           : entity.name.function.python, meta.function.python, source.python
-(             : meta.function.parameters.python, meta.function.python, punctuation.definition.parameters.begin.python, source.python
-)             : meta.function.parameters.python, meta.function.python, punctuation.definition.parameters.end.python, source.python
-:             : meta.function.python, punctuation.section.function.begin.python, source.python
-              : source.python
-pass          : keyword.control.flow.python, source.python
+anon          : source.sage
+              : source.sage
+=             : keyword.operator.assignment.python, source.sage
+              : source.sage
+lambda        : meta.lambda-function.python, source.sage, storage.type.function.lambda.python
+              : meta.function.lambda.parameters.python, meta.lambda-function.python, source.sage
+a             : meta.function.lambda.parameters.python, meta.lambda-function.python, source.sage, variable.parameter.function.language.python
+,             : meta.function.lambda.parameters.python, meta.lambda-function.python, punctuation.separator.parameters.python, source.sage
+              : meta.lambda-function.python, source.sage
+               : source.sage
+d             : source.sage
+=             : keyword.operator.assignment.python, source.sage
+1             : constant.numeric.dec.python, source.sage
+:             : punctuation.separator.colon.python, source.sage
+              : source.sage
+None          : constant.language.python, source.sage
+def           : meta.function.python, source.sage, storage.type.function.python
+              : meta.function.python, source.sage
+foo           : entity.name.function.python, meta.function.python, source.sage
+(             : meta.function.parameters.python, meta.function.python, punctuation.definition.parameters.begin.python, source.sage
+)             : meta.function.parameters.python, meta.function.python, punctuation.definition.parameters.end.python, source.sage
+:             : meta.function.python, punctuation.section.function.begin.python, source.sage
+              : source.sage
+pass          : keyword.control.flow.python, source.sage

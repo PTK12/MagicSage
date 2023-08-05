@@ -2,12 +2,12 @@ global a, b, c
 
 
 
-global        : source.python, storage.modifier.declaration.python
-              : source.python
-a             : source.python
-,             : punctuation.separator.element.python, source.python
-              : source.python
-b             : source.python
-,             : punctuation.separator.element.python, source.python
-              : source.python
-c             : source.python
+global        : source.sage, storage.modifier.declaration.python
+              : source.sage
+a             : source.sage
+,             : punctuation.separator.element.python, source.sage
+              : source.sage
+b             : source.sage
+,             : punctuation.separator.element.python, source.sage
+              : source.sage
+c             : source.sage

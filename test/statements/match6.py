@@ -8,46 +8,46 @@ match {foo, bar}:
 
 
 
-match         : keyword.control.flow.python, source.python
-              : source.python
-(             : punctuation.parenthesis.begin.python, source.python
-foo           : source.python
-              : source.python
-+             : keyword.operator.arithmetic.python, source.python
-              : source.python
-bar           : source.python
-)             : punctuation.parenthesis.end.python, source.python
-:             : punctuation.separator.colon.python, source.python
-              : source.python
-...           : constant.other.ellipsis.python, source.python
-              : source.python
-#             : comment.line.number-sign.python, punctuation.definition.comment.python, source.python
- cases        : comment.line.number-sign.python, source.python
-match         : keyword.control.flow.python, source.python
-              : source.python
-[             : punctuation.definition.list.begin.python, source.python
-foo           : source.python
-,             : punctuation.separator.element.python, source.python
-              : source.python
-bar           : source.python
-]             : punctuation.definition.list.end.python, source.python
-:             : punctuation.separator.colon.python, source.python
-              : source.python
-...           : constant.other.ellipsis.python, source.python
-              : source.python
-#             : comment.line.number-sign.python, punctuation.definition.comment.python, source.python
- cases        : comment.line.number-sign.python, source.python
-match         : keyword.control.flow.python, source.python
-              : source.python
-{             : punctuation.definition.dict.begin.python, source.python
-foo           : source.python
-,             : punctuation.separator.element.python, source.python
-              : source.python
-bar           : source.python
-}             : punctuation.definition.dict.end.python, source.python
-:             : punctuation.separator.colon.python, source.python
-              : source.python
-...           : constant.other.ellipsis.python, source.python
-              : source.python
-#             : comment.line.number-sign.python, punctuation.definition.comment.python, source.python
- cases        : comment.line.number-sign.python, source.python
+match         : keyword.control.flow.python, source.sage
+              : source.sage
+(             : punctuation.parenthesis.begin.python, source.sage
+foo           : source.sage
+              : source.sage
++             : keyword.operator.arithmetic.python, source.sage
+              : source.sage
+bar           : source.sage
+)             : punctuation.parenthesis.end.python, source.sage
+:             : punctuation.separator.colon.python, source.sage
+              : source.sage
+...           : constant.other.ellipsis.python, source.sage
+              : source.sage
+#             : comment.line.number-sign.python, punctuation.definition.comment.python, source.sage
+ cases        : comment.line.number-sign.python, source.sage
+match         : keyword.control.flow.python, source.sage
+              : source.sage
+[             : punctuation.definition.list.begin.python, source.sage
+foo           : source.sage
+,             : punctuation.separator.element.python, source.sage
+              : source.sage
+bar           : source.sage
+]             : punctuation.definition.list.end.python, source.sage
+:             : punctuation.separator.colon.python, source.sage
+              : source.sage
+...           : constant.other.ellipsis.python, source.sage
+              : source.sage
+#             : comment.line.number-sign.python, punctuation.definition.comment.python, source.sage
+ cases        : comment.line.number-sign.python, source.sage
+match         : keyword.control.flow.python, source.sage
+              : source.sage
+{             : punctuation.definition.dict.begin.python, source.sage
+foo           : source.sage
+,             : punctuation.separator.element.python, source.sage
+              : source.sage
+bar           : source.sage
+}             : punctuation.definition.dict.end.python, source.sage
+:             : punctuation.separator.colon.python, source.sage
+              : source.sage
+...           : constant.other.ellipsis.python, source.sage
+              : source.sage
+#             : comment.line.number-sign.python, punctuation.definition.comment.python, source.sage
+ cases        : comment.line.number-sign.python, source.sage

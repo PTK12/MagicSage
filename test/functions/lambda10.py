@@ -3,33 +3,33 @@ showcase = lambda a, /, b, *, c: (a + b + c)
 
 
 
-showcase      : source.python
-              : source.python
-=             : keyword.operator.assignment.python, source.python
-              : source.python
-lambda        : meta.lambda-function.python, source.python, storage.type.function.lambda.python
-              : meta.function.lambda.parameters.python, meta.lambda-function.python, source.python
-a             : meta.function.lambda.parameters.python, meta.lambda-function.python, source.python, variable.parameter.function.language.python
-,             : meta.function.lambda.parameters.python, meta.lambda-function.python, punctuation.separator.parameters.python, source.python
-              : meta.function.lambda.parameters.python, meta.lambda-function.python, source.python
-/             : keyword.operator.positional.parameter.python, meta.function.lambda.parameters.python, meta.lambda-function.python, source.python
-,             : meta.function.lambda.parameters.python, meta.lambda-function.python, source.python
-b             : meta.function.lambda.parameters.python, meta.lambda-function.python, source.python, variable.parameter.function.language.python
-,             : meta.function.lambda.parameters.python, meta.lambda-function.python, punctuation.separator.parameters.python, source.python
-              : meta.function.lambda.parameters.python, meta.lambda-function.python, source.python
-*             : keyword.operator.unpacking.parameter.python, meta.function.lambda.parameters.python, meta.lambda-function.python, source.python
-,             : meta.function.lambda.parameters.python, meta.lambda-function.python, source.python
-c             : meta.function.lambda.parameters.python, meta.lambda-function.python, source.python, variable.parameter.function.language.python
-:             : meta.lambda-function.python, punctuation.section.function.lambda.begin.python, source.python
-              : source.python
-(             : punctuation.parenthesis.begin.python, source.python
-a             : source.python
-              : source.python
-+             : keyword.operator.arithmetic.python, source.python
-              : source.python
-b             : source.python
-              : source.python
-+             : keyword.operator.arithmetic.python, source.python
-              : source.python
-c             : source.python
-)             : punctuation.parenthesis.end.python, source.python
+showcase      : source.sage
+              : source.sage
+=             : keyword.operator.assignment.python, source.sage
+              : source.sage
+lambda        : meta.lambda-function.python, source.sage, storage.type.function.lambda.python
+              : meta.function.lambda.parameters.python, meta.lambda-function.python, source.sage
+a             : meta.function.lambda.parameters.python, meta.lambda-function.python, source.sage, variable.parameter.function.language.python
+,             : meta.function.lambda.parameters.python, meta.lambda-function.python, punctuation.separator.parameters.python, source.sage
+              : meta.function.lambda.parameters.python, meta.lambda-function.python, source.sage
+/             : keyword.operator.positional.parameter.python, meta.function.lambda.parameters.python, meta.lambda-function.python, source.sage
+,             : meta.function.lambda.parameters.python, meta.lambda-function.python, source.sage
+b             : meta.function.lambda.parameters.python, meta.lambda-function.python, source.sage, variable.parameter.function.language.python
+,             : meta.function.lambda.parameters.python, meta.lambda-function.python, punctuation.separator.parameters.python, source.sage
+              : meta.function.lambda.parameters.python, meta.lambda-function.python, source.sage
+*             : keyword.operator.unpacking.parameter.python, meta.function.lambda.parameters.python, meta.lambda-function.python, source.sage
+,             : meta.function.lambda.parameters.python, meta.lambda-function.python, source.sage
+c             : meta.function.lambda.parameters.python, meta.lambda-function.python, source.sage, variable.parameter.function.language.python
+:             : meta.lambda-function.python, punctuation.section.function.lambda.begin.python, source.sage
+              : source.sage
+(             : punctuation.parenthesis.begin.python, source.sage
+a             : source.sage
+              : source.sage
++             : keyword.operator.arithmetic.python, source.sage
+              : source.sage
+b             : source.sage
+              : source.sage
++             : keyword.operator.arithmetic.python, source.sage
+              : source.sage
+c             : source.sage
+)             : punctuation.parenthesis.end.python, source.sage

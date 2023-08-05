@@ -4,20 +4,20 @@ b ||= c
 
 
 
-a             : source.python
-&&            : invalid.illegal.operator.python, source.python
-b             : source.python
-||            : invalid.illegal.operator.python, source.python
-c             : source.python
-a             : source.python
-              : source.python
-&&            : invalid.illegal.operator.python, source.python
-=             : keyword.operator.assignment.python, source.python
-              : source.python
-a             : source.python
-b             : source.python
-              : source.python
-||            : invalid.illegal.operator.python, source.python
-=             : keyword.operator.assignment.python, source.python
-              : source.python
-c             : source.python
+a             : source.sage
+&&            : invalid.illegal.operator.python, source.sage
+b             : source.sage
+||            : invalid.illegal.operator.python, source.sage
+c             : source.sage
+a             : source.sage
+              : source.sage
+&&            : invalid.illegal.operator.python, source.sage
+=             : keyword.operator.assignment.python, source.sage
+              : source.sage
+a             : source.sage
+b             : source.sage
+              : source.sage
+||            : invalid.illegal.operator.python, source.sage
+=             : keyword.operator.assignment.python, source.sage
+              : source.sage
+c             : source.sage

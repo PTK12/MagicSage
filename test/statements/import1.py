@@ -3,28 +3,28 @@ import time as ham, datetime
 
 
 
-from          : keyword.control.import.python, source.python
-              : source.python
-...           : punctuation.separator.period.python, source.python
-foo           : source.python
-              : source.python
-import        : keyword.control.import.python, source.python
-              : source.python
-bar           : source.python
-              : source.python
-as            : keyword.control.import.python, source.python
-              : source.python
-spam          : source.python
-,             : punctuation.separator.element.python, source.python
-              : source.python
-baz           : source.python
-import        : keyword.control.import.python, source.python
-              : source.python
-time          : source.python
-              : source.python
-as            : keyword.control.import.python, source.python
-              : source.python
-ham           : source.python
-,             : punctuation.separator.element.python, source.python
-              : source.python
-datetime      : source.python
+from          : keyword.control.import.python, source.sage
+              : source.sage
+...           : punctuation.separator.period.python, source.sage
+foo           : source.sage
+              : source.sage
+import        : keyword.control.import.python, source.sage
+              : source.sage
+bar           : source.sage
+              : source.sage
+as            : keyword.control.import.python, source.sage
+              : source.sage
+spam          : source.sage
+,             : punctuation.separator.element.python, source.sage
+              : source.sage
+baz           : source.sage
+import        : keyword.control.import.python, source.sage
+              : source.sage
+time          : source.sage
+              : source.sage
+as            : keyword.control.import.python, source.sage
+              : source.sage
+ham           : source.sage
+,             : punctuation.separator.element.python, source.sage
+              : source.sage
+datetime      : source.sage

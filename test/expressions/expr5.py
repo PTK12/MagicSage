@@ -4,38 +4,38 @@ c = {from: {import: a}}
 
 
 
-a             : source.python
-              : source.python
-=             : keyword.operator.assignment.python, source.python
-              : source.python
-(             : punctuation.parenthesis.begin.python, source.python
-from          : keyword.control.flow.python, source.python
-,             : punctuation.separator.element.python, source.python
-              : source.python
-a             : source.python
-)             : punctuation.parenthesis.end.python, source.python
-b             : source.python
-              : source.python
-=             : keyword.operator.assignment.python, source.python
-              : source.python
-[             : punctuation.definition.list.begin.python, source.python
-from          : keyword.control.flow.python, source.python
-,             : punctuation.separator.element.python, source.python
-              : source.python
-b             : source.python
-]             : punctuation.definition.list.end.python, source.python
-c             : source.python
-              : source.python
-=             : keyword.operator.assignment.python, source.python
-              : source.python
-{             : punctuation.definition.dict.begin.python, source.python
-from          : keyword.control.flow.python, source.python
-:             : punctuation.separator.dict.python, source.python
-              : source.python
-{             : punctuation.definition.dict.begin.python, source.python
-import        : keyword.control.import.python, source.python
-:             : punctuation.separator.dict.python, source.python
-              : source.python
-a             : source.python
-}             : punctuation.definition.dict.end.python, source.python
-}             : punctuation.definition.dict.end.python, source.python
+a             : source.sage
+              : source.sage
+=             : keyword.operator.assignment.python, source.sage
+              : source.sage
+(             : punctuation.parenthesis.begin.python, source.sage
+from          : keyword.control.flow.python, source.sage
+,             : punctuation.separator.element.python, source.sage
+              : source.sage
+a             : source.sage
+)             : punctuation.parenthesis.end.python, source.sage
+b             : source.sage
+              : source.sage
+=             : keyword.operator.assignment.python, source.sage
+              : source.sage
+[             : punctuation.definition.list.begin.python, source.sage
+from          : keyword.control.flow.python, source.sage
+,             : punctuation.separator.element.python, source.sage
+              : source.sage
+b             : source.sage
+]             : punctuation.definition.list.end.python, source.sage
+c             : source.sage
+              : source.sage
+=             : keyword.operator.assignment.python, source.sage
+              : source.sage
+{             : punctuation.definition.dict.begin.python, source.sage
+from          : keyword.control.flow.python, source.sage
+:             : punctuation.separator.dict.python, source.sage
+              : source.sage
+{             : punctuation.definition.dict.begin.python, source.sage
+import        : keyword.control.import.python, source.sage
+:             : punctuation.separator.dict.python, source.sage
+              : source.sage
+a             : source.sage
+}             : punctuation.definition.dict.end.python, source.sage
+}             : punctuation.definition.dict.end.python, source.sage

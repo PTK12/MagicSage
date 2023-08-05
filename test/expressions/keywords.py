@@ -8,49 +8,49 @@ for
 
 
 
-as            : keyword.control.import.python, source.python
-              : source.python
-async         : keyword.control.flow.python, source.python
-              : source.python
-await         : keyword.control.flow.python, source.python
-              : source.python
-continue      : keyword.control.flow.python, source.python
-              : source.python
-del           : keyword.control.flow.python, source.python
-              : source.python
-assert        : keyword.control.flow.python, source.python
-              : source.python
-break         : keyword.control.flow.python, source.python
-              : source.python
-finally       : keyword.control.flow.python, source.python
-from          : keyword.control.import.python, source.python
-              : source.python
-elif          : keyword.control.flow.python, source.python
-              : source.python
-else          : keyword.control.flow.python, source.python
-              : source.python
-if            : keyword.control.flow.python, source.python
-              : source.python
-import        : keyword.control.import.python, source.python
-              : source.python
-except        : keyword.control.flow.python, source.python
-              : source.python
-pass          : keyword.control.flow.python, source.python
-              : source.python
-raise         : keyword.control.flow.python, source.python
-return        : keyword.control.flow.python, source.python
-              : source.python
-try           : keyword.control.flow.python, source.python
-              : source.python
-while         : keyword.control.flow.python, source.python
-              : source.python
-with          : keyword.control.flow.python, source.python
-              : source.python
-nonlocal      : source.python, storage.modifier.declaration.python
-              : source.python
-global        : source.python, storage.modifier.declaration.python
-              : source.python
-class         : source.python, storage.type.class.python
- def          : source.python, storage.type.function.python
-              : source.python
-for           : keyword.control.flow.python, source.python
+as            : keyword.control.import.python, source.sage
+              : source.sage
+async         : keyword.control.flow.python, source.sage
+              : source.sage
+await         : keyword.control.flow.python, source.sage
+              : source.sage
+continue      : keyword.control.flow.python, source.sage
+              : source.sage
+del           : keyword.control.flow.python, source.sage
+              : source.sage
+assert        : keyword.control.flow.python, source.sage
+              : source.sage
+break         : keyword.control.flow.python, source.sage
+              : source.sage
+finally       : keyword.control.flow.python, source.sage
+from          : keyword.control.import.python, source.sage
+              : source.sage
+elif          : keyword.control.flow.python, source.sage
+              : source.sage
+else          : keyword.control.flow.python, source.sage
+              : source.sage
+if            : keyword.control.flow.python, source.sage
+              : source.sage
+import        : keyword.control.import.python, source.sage
+              : source.sage
+except        : keyword.control.flow.python, source.sage
+              : source.sage
+pass          : keyword.control.flow.python, source.sage
+              : source.sage
+raise         : keyword.control.flow.python, source.sage
+return        : keyword.control.flow.python, source.sage
+              : source.sage
+try           : keyword.control.flow.python, source.sage
+              : source.sage
+while         : keyword.control.flow.python, source.sage
+              : source.sage
+with          : keyword.control.flow.python, source.sage
+              : source.sage
+nonlocal      : source.sage, storage.modifier.declaration.python
+              : source.sage
+global        : source.sage, storage.modifier.declaration.python
+              : source.sage
+class         : source.sage, storage.type.class.python
+ def          : source.sage, storage.type.function.python
+              : source.sage
+for           : keyword.control.flow.python, source.sage

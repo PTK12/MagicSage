@@ -8,53 +8,53 @@ def foo(): pass
 
 
 
-@             : entity.name.function.decorator.python, meta.function.decorator.python, punctuation.definition.decorator.python, source.python
-a             : entity.name.function.decorator.python, meta.function.decorator.python, source.python
-.             : entity.name.function.decorator.python, meta.function.decorator.python, punctuation.separator.period.python, source.python
-              : meta.function.decorator.python, source.python
-b             : entity.name.function.decorator.python, meta.function.decorator.python, source.python
-              : meta.function.decorator.python, source.python
-.             : entity.name.function.decorator.python, meta.function.decorator.python, punctuation.separator.period.python, source.python
-              : meta.function.decorator.python, source.python
-\             : meta.function.decorator.python, punctuation.separator.continuation.line.python, source.python
-              : meta.function.decorator.python, source.python
-              : meta.function.decorator.python, source.python
-c             : entity.name.function.decorator.python, meta.function.decorator.python, source.python
-.             : entity.name.function.decorator.python, meta.function.decorator.python, punctuation.separator.period.python, source.python
-None          : keyword.illegal.name.python, meta.function.decorator.python, source.python
-.             : entity.name.function.decorator.python, meta.function.decorator.python, punctuation.separator.period.python, source.python
-z             : entity.name.function.decorator.python, meta.function.decorator.python, source.python
-(             : meta.function.decorator.python, punctuation.definition.arguments.begin.python, source.python
-foo           : meta.function-call.arguments.python, meta.function.decorator.python, source.python, variable.parameter.function-call.python
-=             : keyword.operator.assignment.python, meta.function-call.arguments.python, meta.function.decorator.python, source.python
-BAR           : constant.other.caps.python, meta.function-call.arguments.python, meta.function.decorator.python, source.python
-)             : meta.function.decorator.python, punctuation.definition.arguments.end.python, source.python
-. \           : invalid.illegal.decorator.python, meta.function.decorator.python, source.python
-              : source.python
-baz           : meta.indexed-name.python, meta.item-access.python, source.python
-[             : meta.item-access.python, punctuation.definition.arguments.begin.python, source.python
-1             : constant.numeric.dec.python, meta.item-access.arguments.python, meta.item-access.python, source.python
-:             : meta.item-access.arguments.python, meta.item-access.python, punctuation.separator.slice.python, source.python
-2             : constant.numeric.dec.python, meta.item-access.arguments.python, meta.item-access.python, source.python
-]             : meta.item-access.python, punctuation.definition.arguments.end.python, source.python
-@             : entity.name.function.decorator.python, meta.function.decorator.python, punctuation.definition.decorator.python, source.python
-foo           : entity.name.function.decorator.python, meta.function.decorator.python, source.python
-.             : entity.name.function.decorator.python, meta.function.decorator.python, punctuation.separator.period.python, source.python
-class         : keyword.control.flow.python, meta.function.decorator.python, source.python
-.             : entity.name.function.decorator.python, meta.function.decorator.python, punctuation.separator.period.python, source.python
-bar           : entity.name.function.decorator.python, meta.function.decorator.python, source.python
-[]            : invalid.illegal.decorator.python, meta.function.decorator.python, source.python
-@             : entity.name.function.decorator.python, meta.function.decorator.python, punctuation.definition.decorator.python, source.python
-foo           : entity.name.function.decorator.python, meta.function.decorator.python, source.python
-.             : entity.name.function.decorator.python, meta.function.decorator.python, punctuation.separator.period.python, source.python
-ok            : entity.name.function.decorator.python, meta.function.decorator.python, source.python
-              : invalid.illegal.decorator.python, meta.function.decorator.python, source.python
-'''           : invalid.illegal.decorator.python, meta.function.decorator.python, source.python
-def           : meta.function.python, source.python, storage.type.function.python
-              : meta.function.python, source.python
-foo           : entity.name.function.python, meta.function.python, source.python
-(             : meta.function.parameters.python, meta.function.python, punctuation.definition.parameters.begin.python, source.python
-)             : meta.function.parameters.python, meta.function.python, punctuation.definition.parameters.end.python, source.python
-:             : meta.function.python, punctuation.section.function.begin.python, source.python
-              : source.python
-pass          : keyword.control.flow.python, source.python
+@             : entity.name.function.decorator.python, meta.function.decorator.python, punctuation.definition.decorator.python, source.sage
+a             : entity.name.function.decorator.python, meta.function.decorator.python, source.sage
+.             : entity.name.function.decorator.python, meta.function.decorator.python, punctuation.separator.period.python, source.sage
+              : meta.function.decorator.python, source.sage
+b             : entity.name.function.decorator.python, meta.function.decorator.python, source.sage
+              : meta.function.decorator.python, source.sage
+.             : entity.name.function.decorator.python, meta.function.decorator.python, punctuation.separator.period.python, source.sage
+              : meta.function.decorator.python, source.sage
+\             : meta.function.decorator.python, punctuation.separator.continuation.line.python, source.sage
+              : meta.function.decorator.python, source.sage
+              : meta.function.decorator.python, source.sage
+c             : entity.name.function.decorator.python, meta.function.decorator.python, source.sage
+.             : entity.name.function.decorator.python, meta.function.decorator.python, punctuation.separator.period.python, source.sage
+None          : keyword.illegal.name.python, meta.function.decorator.python, source.sage
+.             : entity.name.function.decorator.python, meta.function.decorator.python, punctuation.separator.period.python, source.sage
+z             : entity.name.function.decorator.python, meta.function.decorator.python, source.sage
+(             : meta.function.decorator.python, punctuation.definition.arguments.begin.python, source.sage
+foo           : meta.function-call.arguments.python, meta.function.decorator.python, source.sage, variable.parameter.function-call.python
+=             : keyword.operator.assignment.python, meta.function-call.arguments.python, meta.function.decorator.python, source.sage
+BAR           : constant.other.caps.python, meta.function-call.arguments.python, meta.function.decorator.python, source.sage
+)             : meta.function.decorator.python, punctuation.definition.arguments.end.python, source.sage
+. \           : invalid.illegal.decorator.python, meta.function.decorator.python, source.sage
+              : source.sage
+baz           : meta.indexed-name.python, meta.item-access.python, source.sage
+[             : meta.item-access.python, punctuation.definition.arguments.begin.python, source.sage
+1             : constant.numeric.dec.python, meta.item-access.arguments.python, meta.item-access.python, source.sage
+:             : meta.item-access.arguments.python, meta.item-access.python, punctuation.separator.slice.python, source.sage
+2             : constant.numeric.dec.python, meta.item-access.arguments.python, meta.item-access.python, source.sage
+]             : meta.item-access.python, punctuation.definition.arguments.end.python, source.sage
+@             : entity.name.function.decorator.python, meta.function.decorator.python, punctuation.definition.decorator.python, source.sage
+foo           : entity.name.function.decorator.python, meta.function.decorator.python, source.sage
+.             : entity.name.function.decorator.python, meta.function.decorator.python, punctuation.separator.period.python, source.sage
+class         : keyword.control.flow.python, meta.function.decorator.python, source.sage
+.             : entity.name.function.decorator.python, meta.function.decorator.python, punctuation.separator.period.python, source.sage
+bar           : entity.name.function.decorator.python, meta.function.decorator.python, source.sage
+[]            : invalid.illegal.decorator.python, meta.function.decorator.python, source.sage
+@             : entity.name.function.decorator.python, meta.function.decorator.python, punctuation.definition.decorator.python, source.sage
+foo           : entity.name.function.decorator.python, meta.function.decorator.python, source.sage
+.             : entity.name.function.decorator.python, meta.function.decorator.python, punctuation.separator.period.python, source.sage
+ok            : entity.name.function.decorator.python, meta.function.decorator.python, source.sage
+              : invalid.illegal.decorator.python, meta.function.decorator.python, source.sage
+'''           : invalid.illegal.decorator.python, meta.function.decorator.python, source.sage
+def           : meta.function.python, source.sage, storage.type.function.python
+              : meta.function.python, source.sage
+foo           : entity.name.function.python, meta.function.python, source.sage
+(             : meta.function.parameters.python, meta.function.python, punctuation.definition.parameters.begin.python, source.sage
+)             : meta.function.parameters.python, meta.function.python, punctuation.definition.parameters.end.python, source.sage
+:             : meta.function.python, punctuation.section.function.begin.python, source.sage
+              : source.sage
+pass          : keyword.control.flow.python, source.sage

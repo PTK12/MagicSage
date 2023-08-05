@@ -2,10 +2,10 @@ from __future__ import generator_stop
 
 
 
-from          : keyword.control.import.python, source.python
-              : source.python
-__future__    : source.python, support.variable.magic.python
-              : source.python
-import        : keyword.control.import.python, source.python
-              : source.python
-generator_stop : source.python
+from          : keyword.control.import.python, source.sage
+              : source.sage
+__future__    : source.sage, support.variable.magic.python
+              : source.sage
+import        : keyword.control.import.python, source.sage
+              : source.sage
+generator_stop : source.sage

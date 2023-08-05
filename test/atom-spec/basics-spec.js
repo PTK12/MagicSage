@@ -6,7 +6,7 @@ describe("MagicPython basic integration tests", function() {
       return atom.packages.activatePackage("MagicPython")
     });
     runs(function() {
-      grammar = atom.grammars.grammarForScopeName("source.python")
+      grammar = atom.grammars.grammarForScopeName("source.sage")
     });
   });
 
@@ -20,6 +20,6 @@ describe("MagicPython basic integration tests", function() {
 
   it("parses the grammar", function() {
     expect(grammar).toBeDefined();
-    expect(grammar.scopeName).toBe("source.python");
+    expect(grammar.scopeName).toBe("source.sage");
   });
 });

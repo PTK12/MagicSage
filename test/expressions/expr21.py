@@ -4,36 +4,36 @@ while chunk := file.read(8192):
 
 
 
-while         : keyword.control.flow.python, source.python
-              : source.python
-chunk         : source.python
-              : source.python
-:=            : keyword.operator.assignment.python, source.python
-              : source.python
-file          : source.python, variable.legacy.builtin.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-read          : meta.function-call.generic.python, meta.function-call.python, meta.member.access.python, source.python
-(             : meta.function-call.python, meta.member.access.python, punctuation.definition.arguments.begin.python, source.python
-8192          : constant.numeric.dec.python, meta.function-call.arguments.python, meta.function-call.python, meta.member.access.python, source.python
-)             : meta.function-call.python, meta.member.access.python, punctuation.definition.arguments.end.python, source.python
-:             : punctuation.separator.colon.python, source.python
-              : source.python
-process       : meta.function-call.generic.python, meta.function-call.python, source.python
-(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.python
-chunk         : meta.function-call.arguments.python, meta.function-call.python, source.python
-)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.python
-              : source.python
-y0            : source.python
-              : source.python
-=             : keyword.operator.assignment.python, source.python
-              : source.python
-(             : punctuation.parenthesis.begin.python, source.python
-y1            : source.python
-              : source.python
-:=            : keyword.operator.assignment.python, source.python
-              : source.python
-f             : meta.function-call.generic.python, meta.function-call.python, source.python
-(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.python
-x             : meta.function-call.arguments.python, meta.function-call.python, source.python
-)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.python
-)             : punctuation.parenthesis.end.python, source.python
+while         : keyword.control.flow.python, source.sage
+              : source.sage
+chunk         : source.sage
+              : source.sage
+:=            : keyword.operator.assignment.python, source.sage
+              : source.sage
+file          : source.sage, variable.legacy.builtin.python
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+read          : meta.function-call.generic.python, meta.function-call.python, meta.member.access.python, source.sage
+(             : meta.function-call.python, meta.member.access.python, punctuation.definition.arguments.begin.python, source.sage
+8192          : constant.numeric.dec.python, meta.function-call.arguments.python, meta.function-call.python, meta.member.access.python, source.sage
+)             : meta.function-call.python, meta.member.access.python, punctuation.definition.arguments.end.python, source.sage
+:             : punctuation.separator.colon.python, source.sage
+              : source.sage
+process       : meta.function-call.generic.python, meta.function-call.python, source.sage
+(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.sage
+chunk         : meta.function-call.arguments.python, meta.function-call.python, source.sage
+)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.sage
+              : source.sage
+y0            : source.sage
+              : source.sage
+=             : keyword.operator.assignment.python, source.sage
+              : source.sage
+(             : punctuation.parenthesis.begin.python, source.sage
+y1            : source.sage
+              : source.sage
+:=            : keyword.operator.assignment.python, source.sage
+              : source.sage
+f             : meta.function-call.generic.python, meta.function-call.python, source.sage
+(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.sage
+x             : meta.function-call.arguments.python, meta.function-call.python, source.sage
+)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.sage
+)             : punctuation.parenthesis.end.python, source.sage

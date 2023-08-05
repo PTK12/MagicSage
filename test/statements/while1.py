@@ -3,9 +3,9 @@ while 1:
 
 
 
-while         : keyword.control.flow.python, source.python
-              : source.python
-1             : constant.numeric.dec.python, source.python
-:             : punctuation.separator.colon.python, source.python
-              : source.python
-pass          : keyword.control.flow.python, source.python
+while         : keyword.control.flow.python, source.sage
+              : source.sage
+1             : constant.numeric.dec.python, source.sage
+:             : punctuation.separator.colon.python, source.sage
+              : source.sage
+pass          : keyword.control.flow.python, source.sage

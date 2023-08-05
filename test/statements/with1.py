@@ -3,20 +3,20 @@ with a as b, c as d:
 
 
 
-with          : keyword.control.flow.python, source.python
-              : source.python
-a             : source.python
-              : source.python
-as            : keyword.control.flow.python, source.python
-              : source.python
-b             : source.python
-,             : punctuation.separator.element.python, source.python
-              : source.python
-c             : source.python
-              : source.python
-as            : keyword.control.flow.python, source.python
-              : source.python
-d             : source.python
-:             : punctuation.separator.colon.python, source.python
-              : source.python
-pass          : keyword.control.flow.python, source.python
+with          : keyword.control.flow.python, source.sage
+              : source.sage
+a             : source.sage
+              : source.sage
+as            : keyword.control.flow.python, source.sage
+              : source.sage
+b             : source.sage
+,             : punctuation.separator.element.python, source.sage
+              : source.sage
+c             : source.sage
+              : source.sage
+as            : keyword.control.flow.python, source.sage
+              : source.sage
+d             : source.sage
+:             : punctuation.separator.colon.python, source.sage
+              : source.sage
+pass          : keyword.control.flow.python, source.sage

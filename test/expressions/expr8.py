@@ -2,15 +2,15 @@ assert a or b, 'aaa'
 
 
 
-assert        : keyword.control.flow.python, source.python
-              : source.python
-a             : source.python
-              : source.python
-or            : keyword.operator.logical.python, source.python
-              : source.python
-b             : source.python
-,             : punctuation.separator.element.python, source.python
-              : source.python
-'             : punctuation.definition.string.begin.python, source.python, string.quoted.single.python
-aaa           : source.python, string.quoted.single.python
-'             : punctuation.definition.string.end.python, source.python, string.quoted.single.python
+assert        : keyword.control.flow.python, source.sage
+              : source.sage
+a             : source.sage
+              : source.sage
+or            : keyword.operator.logical.python, source.sage
+              : source.sage
+b             : source.sage
+,             : punctuation.separator.element.python, source.sage
+              : source.sage
+'             : punctuation.definition.string.begin.python, source.sage, string.quoted.single.python
+aaa           : source.sage, string.quoted.single.python
+'             : punctuation.definition.string.end.python, source.sage, string.quoted.single.python

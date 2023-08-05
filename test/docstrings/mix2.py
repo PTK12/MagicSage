@@ -16,94 +16,94 @@ class Foo:
 
 
 
-'             : punctuation.definition.string.begin.python, source.python, string.quoted.docstring.single.python
-TEST          : source.python, string.quoted.docstring.single.python
-'             : punctuation.definition.string.end.python, source.python, string.quoted.docstring.single.python
-              : source.python
-class         : meta.class.python, source.python, storage.type.class.python
-              : meta.class.python, source.python
-Foo           : entity.name.type.class.python, meta.class.python, source.python
-:             : meta.class.python, punctuation.section.class.begin.python, source.python
-              : source.python
-#             : comment.line.number-sign.python, punctuation.definition.comment.python, source.python
- comment      : comment.line.number-sign.python, source.python
-              : source.python
-R             : source.python, storage.type.string.python, string.quoted.docstring.raw.single.python
-'             : punctuation.definition.string.begin.python, source.python, string.quoted.docstring.raw.single.python
-TEST          : source.python, string.quoted.docstring.raw.single.python
-'             : punctuation.definition.string.end.python, source.python, string.quoted.docstring.raw.single.python
-              : source.python
-              : meta.function.python, source.python
-def           : meta.function.python, source.python, storage.type.function.python
-              : meta.function.python, source.python
-foo           : entity.name.function.python, meta.function.python, source.python
-(             : meta.function.parameters.python, meta.function.python, punctuation.definition.parameters.begin.python, source.python
-self          : meta.function.parameters.python, meta.function.python, source.python, variable.parameter.function.language.python, variable.parameter.function.language.special.self.python
-,             : meta.function.parameters.python, meta.function.python, punctuation.separator.parameters.python, source.python
-              : meta.function.parameters.python, meta.function.python, source.python
-a             : meta.function.parameters.python, meta.function.python, source.python, variable.parameter.function.language.python
-:             : meta.function.parameters.python, meta.function.python, punctuation.separator.annotation.python, source.python
-'             : meta.function.parameters.python, meta.function.python, punctuation.definition.string.begin.python, source.python, string.quoted.single.python
-TEST          : meta.function.parameters.python, meta.function.python, source.python, string.quoted.single.python
-'             : meta.function.parameters.python, meta.function.python, punctuation.definition.string.end.python, source.python, string.quoted.single.python
-)             : meta.function.parameters.python, meta.function.python, punctuation.definition.parameters.end.python, source.python
-              : meta.function.python, source.python
-->            : meta.function.python, punctuation.separator.annotation.result.python, source.python
-              : meta.function.python, source.python
-'             : meta.function.python, punctuation.definition.string.begin.python, source.python, string.quoted.single.python
-TEST          : meta.function.python, source.python, string.quoted.single.python
-'             : meta.function.python, punctuation.definition.string.end.python, source.python, string.quoted.single.python
-:             : meta.function.python, punctuation.section.function.begin.python, source.python
-              : source.python
-#             : comment.line.number-sign.python, punctuation.definition.comment.python, source.python
-ok            : comment.line.number-sign.python, source.python
-              : source.python
-r             : source.python, storage.type.string.python, string.quoted.docstring.raw.single.python
-'             : punctuation.definition.string.begin.python, source.python, string.quoted.docstring.raw.single.python
-TEST          : source.python, string.quoted.docstring.raw.single.python
-'             : punctuation.definition.string.end.python, source.python, string.quoted.docstring.raw.single.python
-              : source.python
-with          : keyword.control.flow.python, source.python
-              : source.python
-bar           : source.python
-:             : punctuation.separator.colon.python, source.python
-              : source.python
-pass          : keyword.control.flow.python, source.python
-              : source.python
-              : meta.function.python, source.python
-def           : meta.function.python, source.python, storage.type.function.python
-              : meta.function.python, source.python
-bar           : entity.name.function.python, meta.function.python, source.python
-(             : meta.function.parameters.python, meta.function.python, punctuation.definition.parameters.begin.python, source.python
-self          : meta.function.parameters.python, meta.function.python, source.python, variable.parameter.function.language.python, variable.parameter.function.language.special.self.python
-,             : meta.function.parameters.python, meta.function.python, punctuation.separator.parameters.python, source.python
-              : meta.function.parameters.python, meta.function.python, source.python
-a             : meta.function.parameters.python, meta.function.python, source.python, variable.parameter.function.language.python
-:             : meta.function.parameters.python, meta.function.python, punctuation.separator.annotation.python, source.python
-'             : meta.function.parameters.python, meta.function.python, punctuation.definition.string.begin.python, source.python, string.quoted.single.python
-TEST          : meta.function.parameters.python, meta.function.python, source.python, string.quoted.single.python
-'             : meta.function.parameters.python, meta.function.python, punctuation.definition.string.end.python, source.python, string.quoted.single.python
-)             : meta.function.parameters.python, meta.function.python, punctuation.definition.parameters.end.python, source.python
-              : meta.function.python, source.python
-->            : meta.function.python, punctuation.separator.annotation.result.python, source.python
-              : meta.function.python, source.python
-'             : meta.function.python, punctuation.definition.string.begin.python, source.python, string.quoted.single.python
-TEST          : meta.function.python, source.python, string.quoted.single.python
-'             : meta.function.python, punctuation.definition.string.end.python, source.python, string.quoted.single.python
-:             : meta.function.python, punctuation.section.function.begin.python, source.python
-              : source.python
-pass          : keyword.control.flow.python, source.python
-              : source.python
-'             : punctuation.definition.string.begin.python, source.python, string.quoted.docstring.single.python
-TEST          : source.python, string.quoted.docstring.single.python
-'             : punctuation.definition.string.end.python, source.python, string.quoted.docstring.single.python
-              : source.python
-#             : comment.line.number-sign.python, punctuation.definition.comment.python, source.python
- additional docstring : comment.line.number-sign.python, source.python
-              : source.python
-with          : keyword.control.flow.python, source.python
-              : source.python
-bar           : source.python
-:             : punctuation.separator.colon.python, source.python
-              : source.python
-pass          : keyword.control.flow.python, source.python
+'             : punctuation.definition.string.begin.python, source.sage, string.quoted.docstring.single.python
+TEST          : source.sage, string.quoted.docstring.single.python
+'             : punctuation.definition.string.end.python, source.sage, string.quoted.docstring.single.python
+              : source.sage
+class         : meta.class.python, source.sage, storage.type.class.python
+              : meta.class.python, source.sage
+Foo           : entity.name.type.class.python, meta.class.python, source.sage
+:             : meta.class.python, punctuation.section.class.begin.python, source.sage
+              : source.sage
+#             : comment.line.number-sign.python, punctuation.definition.comment.python, source.sage
+ comment      : comment.line.number-sign.python, source.sage
+              : source.sage
+R             : source.sage, storage.type.string.python, string.quoted.docstring.raw.single.python
+'             : punctuation.definition.string.begin.python, source.sage, string.quoted.docstring.raw.single.python
+TEST          : source.sage, string.quoted.docstring.raw.single.python
+'             : punctuation.definition.string.end.python, source.sage, string.quoted.docstring.raw.single.python
+              : source.sage
+              : meta.function.python, source.sage
+def           : meta.function.python, source.sage, storage.type.function.python
+              : meta.function.python, source.sage
+foo           : entity.name.function.python, meta.function.python, source.sage
+(             : meta.function.parameters.python, meta.function.python, punctuation.definition.parameters.begin.python, source.sage
+self          : meta.function.parameters.python, meta.function.python, source.sage, variable.parameter.function.language.python, variable.parameter.function.language.special.self.python
+,             : meta.function.parameters.python, meta.function.python, punctuation.separator.parameters.python, source.sage
+              : meta.function.parameters.python, meta.function.python, source.sage
+a             : meta.function.parameters.python, meta.function.python, source.sage, variable.parameter.function.language.python
+:             : meta.function.parameters.python, meta.function.python, punctuation.separator.annotation.python, source.sage
+'             : meta.function.parameters.python, meta.function.python, punctuation.definition.string.begin.python, source.sage, string.quoted.single.python
+TEST          : meta.function.parameters.python, meta.function.python, source.sage, string.quoted.single.python
+'             : meta.function.parameters.python, meta.function.python, punctuation.definition.string.end.python, source.sage, string.quoted.single.python
+)             : meta.function.parameters.python, meta.function.python, punctuation.definition.parameters.end.python, source.sage
+              : meta.function.python, source.sage
+->            : meta.function.python, punctuation.separator.annotation.result.python, source.sage
+              : meta.function.python, source.sage
+'             : meta.function.python, punctuation.definition.string.begin.python, source.sage, string.quoted.single.python
+TEST          : meta.function.python, source.sage, string.quoted.single.python
+'             : meta.function.python, punctuation.definition.string.end.python, source.sage, string.quoted.single.python
+:             : meta.function.python, punctuation.section.function.begin.python, source.sage
+              : source.sage
+#             : comment.line.number-sign.python, punctuation.definition.comment.python, source.sage
+ok            : comment.line.number-sign.python, source.sage
+              : source.sage
+r             : source.sage, storage.type.string.python, string.quoted.docstring.raw.single.python
+'             : punctuation.definition.string.begin.python, source.sage, string.quoted.docstring.raw.single.python
+TEST          : source.sage, string.quoted.docstring.raw.single.python
+'             : punctuation.definition.string.end.python, source.sage, string.quoted.docstring.raw.single.python
+              : source.sage
+with          : keyword.control.flow.python, source.sage
+              : source.sage
+bar           : source.sage
+:             : punctuation.separator.colon.python, source.sage
+              : source.sage
+pass          : keyword.control.flow.python, source.sage
+              : source.sage
+              : meta.function.python, source.sage
+def           : meta.function.python, source.sage, storage.type.function.python
+              : meta.function.python, source.sage
+bar           : entity.name.function.python, meta.function.python, source.sage
+(             : meta.function.parameters.python, meta.function.python, punctuation.definition.parameters.begin.python, source.sage
+self          : meta.function.parameters.python, meta.function.python, source.sage, variable.parameter.function.language.python, variable.parameter.function.language.special.self.python
+,             : meta.function.parameters.python, meta.function.python, punctuation.separator.parameters.python, source.sage
+              : meta.function.parameters.python, meta.function.python, source.sage
+a             : meta.function.parameters.python, meta.function.python, source.sage, variable.parameter.function.language.python
+:             : meta.function.parameters.python, meta.function.python, punctuation.separator.annotation.python, source.sage
+'             : meta.function.parameters.python, meta.function.python, punctuation.definition.string.begin.python, source.sage, string.quoted.single.python
+TEST          : meta.function.parameters.python, meta.function.python, source.sage, string.quoted.single.python
+'             : meta.function.parameters.python, meta.function.python, punctuation.definition.string.end.python, source.sage, string.quoted.single.python
+)             : meta.function.parameters.python, meta.function.python, punctuation.definition.parameters.end.python, source.sage
+              : meta.function.python, source.sage
+->            : meta.function.python, punctuation.separator.annotation.result.python, source.sage
+              : meta.function.python, source.sage
+'             : meta.function.python, punctuation.definition.string.begin.python, source.sage, string.quoted.single.python
+TEST          : meta.function.python, source.sage, string.quoted.single.python
+'             : meta.function.python, punctuation.definition.string.end.python, source.sage, string.quoted.single.python
+:             : meta.function.python, punctuation.section.function.begin.python, source.sage
+              : source.sage
+pass          : keyword.control.flow.python, source.sage
+              : source.sage
+'             : punctuation.definition.string.begin.python, source.sage, string.quoted.docstring.single.python
+TEST          : source.sage, string.quoted.docstring.single.python
+'             : punctuation.definition.string.end.python, source.sage, string.quoted.docstring.single.python
+              : source.sage
+#             : comment.line.number-sign.python, punctuation.definition.comment.python, source.sage
+ additional docstring : comment.line.number-sign.python, source.sage
+              : source.sage
+with          : keyword.control.flow.python, source.sage
+              : source.sage
+bar           : source.sage
+:             : punctuation.separator.colon.python, source.sage
+              : source.sage
+pass          : keyword.control.flow.python, source.sage

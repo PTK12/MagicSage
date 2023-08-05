@@ -12,103 +12,103 @@ match points:
 
 
 
-match         : keyword.control.flow.python, source.python
-              : source.python
-points        : source.python
-:             : punctuation.separator.colon.python, source.python
-              : source.python
-case          : keyword.control.flow.python, source.python
-              : source.python
-[             : punctuation.definition.list.begin.python, source.python
-]             : punctuation.definition.list.end.python, source.python
-:             : punctuation.separator.colon.python, source.python
-              : source.python
-print         : meta.function-call.python, source.python, support.function.builtin.python
-(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.python
-"             : meta.function-call.arguments.python, meta.function-call.python, punctuation.definition.string.begin.python, source.python, string.quoted.single.python
-No points in the list. : meta.function-call.arguments.python, meta.function-call.python, source.python, string.quoted.single.python
-"             : meta.function-call.arguments.python, meta.function-call.python, punctuation.definition.string.end.python, source.python, string.quoted.single.python
-)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.python
-              : source.python
-case          : keyword.control.flow.python, source.python
-              : source.python
-[             : punctuation.definition.list.begin.python, source.python
-Point         : meta.function-call.generic.python, meta.function-call.python, source.python
-(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.python
-0             : constant.numeric.dec.python, meta.function-call.arguments.python, meta.function-call.python, source.python
-,             : meta.function-call.arguments.python, meta.function-call.python, punctuation.separator.arguments.python, source.python
-              : meta.function-call.arguments.python, meta.function-call.python, source.python
-0             : constant.numeric.dec.python, meta.function-call.arguments.python, meta.function-call.python, source.python
-)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.python
-]             : punctuation.definition.list.end.python, source.python
-:             : punctuation.separator.colon.python, source.python
-              : source.python
-print         : meta.function-call.python, source.python, support.function.builtin.python
-(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.python
-"             : meta.function-call.arguments.python, meta.function-call.python, punctuation.definition.string.begin.python, source.python, string.quoted.single.python
-The origin is the only point in the list. : meta.function-call.arguments.python, meta.function-call.python, source.python, string.quoted.single.python
-"             : meta.function-call.arguments.python, meta.function-call.python, punctuation.definition.string.end.python, source.python, string.quoted.single.python
-)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.python
-              : source.python
-case          : keyword.control.flow.python, source.python
-              : source.python
-[             : punctuation.definition.list.begin.python, source.python
-Point         : meta.function-call.generic.python, meta.function-call.python, source.python
-(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.python
-x             : meta.function-call.arguments.python, meta.function-call.python, source.python
-,             : meta.function-call.arguments.python, meta.function-call.python, punctuation.separator.arguments.python, source.python
-              : meta.function-call.arguments.python, meta.function-call.python, source.python
-y             : meta.function-call.arguments.python, meta.function-call.python, source.python
-)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.python
-]             : punctuation.definition.list.end.python, source.python
-:             : punctuation.separator.colon.python, source.python
-              : source.python
-print         : meta.function-call.python, source.python, support.function.builtin.python
-(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.python
-f             : meta.fstring.python, meta.function-call.arguments.python, meta.function-call.python, source.python, storage.type.string.python, string.interpolated.python, string.quoted.single.python
-"             : meta.fstring.python, meta.function-call.arguments.python, meta.function-call.python, punctuation.definition.string.begin.python, source.python, string.interpolated.python, string.quoted.single.python
-A single point is in the list. : meta.fstring.python, meta.function-call.arguments.python, meta.function-call.python, source.python, string.interpolated.python, string.quoted.single.python
-"             : meta.fstring.python, meta.function-call.arguments.python, meta.function-call.python, punctuation.definition.string.end.python, source.python, string.interpolated.python, string.quoted.single.python
-)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.python
-              : source.python
-case          : keyword.control.flow.python, source.python
-              : source.python
-[             : punctuation.definition.list.begin.python, source.python
-Point         : meta.function-call.generic.python, meta.function-call.python, source.python
-(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.python
-0             : constant.numeric.dec.python, meta.function-call.arguments.python, meta.function-call.python, source.python
-,             : meta.function-call.arguments.python, meta.function-call.python, punctuation.separator.arguments.python, source.python
-              : meta.function-call.arguments.python, meta.function-call.python, source.python
-y1            : meta.function-call.arguments.python, meta.function-call.python, source.python
-)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.python
-,             : punctuation.separator.element.python, source.python
-              : source.python
-Point         : meta.function-call.generic.python, meta.function-call.python, source.python
-(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.python
-0             : constant.numeric.dec.python, meta.function-call.arguments.python, meta.function-call.python, source.python
-,             : meta.function-call.arguments.python, meta.function-call.python, punctuation.separator.arguments.python, source.python
-              : meta.function-call.arguments.python, meta.function-call.python, source.python
-y2            : meta.function-call.arguments.python, meta.function-call.python, source.python
-)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.python
-]             : punctuation.definition.list.end.python, source.python
-:             : punctuation.separator.colon.python, source.python
-              : source.python
-print         : meta.function-call.python, source.python, support.function.builtin.python
-(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.python
-f             : meta.fstring.python, meta.function-call.arguments.python, meta.function-call.python, source.python, storage.type.string.python, string.interpolated.python, string.quoted.single.python
-"             : meta.fstring.python, meta.function-call.arguments.python, meta.function-call.python, punctuation.definition.string.begin.python, source.python, string.interpolated.python, string.quoted.single.python
-Two points on the Y axis are in the list. : meta.fstring.python, meta.function-call.arguments.python, meta.function-call.python, source.python, string.interpolated.python, string.quoted.single.python
-"             : meta.fstring.python, meta.function-call.arguments.python, meta.function-call.python, punctuation.definition.string.end.python, source.python, string.interpolated.python, string.quoted.single.python
-)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.python
-              : source.python
-case          : keyword.control.flow.python, source.python
-              : source.python
-_             : source.python
-:             : punctuation.separator.colon.python, source.python
-              : source.python
-print         : meta.function-call.python, source.python, support.function.builtin.python
-(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.python
-"             : meta.function-call.arguments.python, meta.function-call.python, punctuation.definition.string.begin.python, source.python, string.quoted.single.python
-Something else is found in the list. : meta.function-call.arguments.python, meta.function-call.python, source.python, string.quoted.single.python
-"             : meta.function-call.arguments.python, meta.function-call.python, punctuation.definition.string.end.python, source.python, string.quoted.single.python
-)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.python
+match         : keyword.control.flow.python, source.sage
+              : source.sage
+points        : source.sage
+:             : punctuation.separator.colon.python, source.sage
+              : source.sage
+case          : keyword.control.flow.python, source.sage
+              : source.sage
+[             : punctuation.definition.list.begin.python, source.sage
+]             : punctuation.definition.list.end.python, source.sage
+:             : punctuation.separator.colon.python, source.sage
+              : source.sage
+print         : meta.function-call.python, source.sage, support.function.builtin.python
+(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.sage
+"             : meta.function-call.arguments.python, meta.function-call.python, punctuation.definition.string.begin.python, source.sage, string.quoted.single.python
+No points in the list. : meta.function-call.arguments.python, meta.function-call.python, source.sage, string.quoted.single.python
+"             : meta.function-call.arguments.python, meta.function-call.python, punctuation.definition.string.end.python, source.sage, string.quoted.single.python
+)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.sage
+              : source.sage
+case          : keyword.control.flow.python, source.sage
+              : source.sage
+[             : punctuation.definition.list.begin.python, source.sage
+Point         : meta.function-call.generic.python, meta.function-call.python, source.sage
+(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.sage
+0             : constant.numeric.dec.python, meta.function-call.arguments.python, meta.function-call.python, source.sage
+,             : meta.function-call.arguments.python, meta.function-call.python, punctuation.separator.arguments.python, source.sage
+              : meta.function-call.arguments.python, meta.function-call.python, source.sage
+0             : constant.numeric.dec.python, meta.function-call.arguments.python, meta.function-call.python, source.sage
+)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.sage
+]             : punctuation.definition.list.end.python, source.sage
+:             : punctuation.separator.colon.python, source.sage
+              : source.sage
+print         : meta.function-call.python, source.sage, support.function.builtin.python
+(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.sage
+"             : meta.function-call.arguments.python, meta.function-call.python, punctuation.definition.string.begin.python, source.sage, string.quoted.single.python
+The origin is the only point in the list. : meta.function-call.arguments.python, meta.function-call.python, source.sage, string.quoted.single.python
+"             : meta.function-call.arguments.python, meta.function-call.python, punctuation.definition.string.end.python, source.sage, string.quoted.single.python
+)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.sage
+              : source.sage
+case          : keyword.control.flow.python, source.sage
+              : source.sage
+[             : punctuation.definition.list.begin.python, source.sage
+Point         : meta.function-call.generic.python, meta.function-call.python, source.sage
+(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.sage
+x             : meta.function-call.arguments.python, meta.function-call.python, source.sage
+,             : meta.function-call.arguments.python, meta.function-call.python, punctuation.separator.arguments.python, source.sage
+              : meta.function-call.arguments.python, meta.function-call.python, source.sage
+y             : meta.function-call.arguments.python, meta.function-call.python, source.sage
+)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.sage
+]             : punctuation.definition.list.end.python, source.sage
+:             : punctuation.separator.colon.python, source.sage
+              : source.sage
+print         : meta.function-call.python, source.sage, support.function.builtin.python
+(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.sage
+f             : meta.fstring.python, meta.function-call.arguments.python, meta.function-call.python, source.sage, storage.type.string.python, string.interpolated.python, string.quoted.single.python
+"             : meta.fstring.python, meta.function-call.arguments.python, meta.function-call.python, punctuation.definition.string.begin.python, source.sage, string.interpolated.python, string.quoted.single.python
+A single point is in the list. : meta.fstring.python, meta.function-call.arguments.python, meta.function-call.python, source.sage, string.interpolated.python, string.quoted.single.python
+"             : meta.fstring.python, meta.function-call.arguments.python, meta.function-call.python, punctuation.definition.string.end.python, source.sage, string.interpolated.python, string.quoted.single.python
+)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.sage
+              : source.sage
+case          : keyword.control.flow.python, source.sage
+              : source.sage
+[             : punctuation.definition.list.begin.python, source.sage
+Point         : meta.function-call.generic.python, meta.function-call.python, source.sage
+(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.sage
+0             : constant.numeric.dec.python, meta.function-call.arguments.python, meta.function-call.python, source.sage
+,             : meta.function-call.arguments.python, meta.function-call.python, punctuation.separator.arguments.python, source.sage
+              : meta.function-call.arguments.python, meta.function-call.python, source.sage
+y1            : meta.function-call.arguments.python, meta.function-call.python, source.sage
+)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.sage
+,             : punctuation.separator.element.python, source.sage
+              : source.sage
+Point         : meta.function-call.generic.python, meta.function-call.python, source.sage
+(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.sage
+0             : constant.numeric.dec.python, meta.function-call.arguments.python, meta.function-call.python, source.sage
+,             : meta.function-call.arguments.python, meta.function-call.python, punctuation.separator.arguments.python, source.sage
+              : meta.function-call.arguments.python, meta.function-call.python, source.sage
+y2            : meta.function-call.arguments.python, meta.function-call.python, source.sage
+)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.sage
+]             : punctuation.definition.list.end.python, source.sage
+:             : punctuation.separator.colon.python, source.sage
+              : source.sage
+print         : meta.function-call.python, source.sage, support.function.builtin.python
+(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.sage
+f             : meta.fstring.python, meta.function-call.arguments.python, meta.function-call.python, source.sage, storage.type.string.python, string.interpolated.python, string.quoted.single.python
+"             : meta.fstring.python, meta.function-call.arguments.python, meta.function-call.python, punctuation.definition.string.begin.python, source.sage, string.interpolated.python, string.quoted.single.python
+Two points on the Y axis are in the list. : meta.fstring.python, meta.function-call.arguments.python, meta.function-call.python, source.sage, string.interpolated.python, string.quoted.single.python
+"             : meta.fstring.python, meta.function-call.arguments.python, meta.function-call.python, punctuation.definition.string.end.python, source.sage, string.interpolated.python, string.quoted.single.python
+)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.sage
+              : source.sage
+case          : keyword.control.flow.python, source.sage
+              : source.sage
+_             : source.sage
+:             : punctuation.separator.colon.python, source.sage
+              : source.sage
+print         : meta.function-call.python, source.sage, support.function.builtin.python
+(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.sage
+"             : meta.function-call.arguments.python, meta.function-call.python, punctuation.definition.string.begin.python, source.sage, string.quoted.single.python
+Something else is found in the list. : meta.function-call.arguments.python, meta.function-call.python, source.sage, string.quoted.single.python
+"             : meta.function-call.arguments.python, meta.function-call.python, punctuation.definition.string.end.python, source.sage, string.quoted.single.python
+)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.sage

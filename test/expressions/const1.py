@@ -4,59 +4,59 @@ QQQq QQQq123 self.FOOO() _ _1 __1 _1A  __1A _a __a __ ___ ___a ___1 __aA ___Aa
 
 
 
-QQQQ          : constant.other.caps.python, source.python
-              : source.python
-QQQQ_123      : constant.other.caps.python, source.python
-              : source.python
-QQQQ123       : constant.other.caps.python, source.python
-              : source.python
-PROTOCOL_v2   : constant.other.caps.python, source.python
-              : source.python
-QQQ           : constant.other.caps.python, source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-bar           : meta.attribute.python, meta.member.access.python, source.python
-              : source.python
-baz           : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-AA_a          : constant.other.caps.python, meta.member.access.python, source.python
-              : source.python
-_AAA          : constant.other.caps.python, source.python
-              : source.python
-foo           : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-_AAA          : constant.other.caps.python, meta.member.access.python, source.python
-QQQq          : source.python
-              : source.python
-QQQq123       : source.python
-              : source.python
-self          : source.python, variable.language.special.self.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-FOOO          : meta.function-call.generic.python, meta.function-call.python, meta.member.access.python, source.python
-(             : meta.function-call.python, meta.member.access.python, punctuation.definition.arguments.begin.python, source.python
-)             : meta.function-call.python, meta.member.access.python, punctuation.definition.arguments.end.python, source.python
-              : source.python
-_             : source.python
-              : source.python
-_1            : source.python
-              : source.python
-__1           : source.python
-              : source.python
-_1A           : source.python
-              : source.python
-__1A          : source.python
-              : source.python
-_a            : source.python
-              : source.python
-__a           : source.python
-              : source.python
-__            : source.python
-              : source.python
-___           : source.python
-              : source.python
-___a          : source.python
-              : source.python
-___1          : source.python
-              : source.python
-__aA          : source.python
-              : source.python
-___Aa         : source.python
+QQQQ          : constant.other.caps.python, source.sage
+              : source.sage
+QQQQ_123      : constant.other.caps.python, source.sage
+              : source.sage
+QQQQ123       : constant.other.caps.python, source.sage
+              : source.sage
+PROTOCOL_v2   : constant.other.caps.python, source.sage
+              : source.sage
+QQQ           : constant.other.caps.python, source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+bar           : meta.attribute.python, meta.member.access.python, source.sage
+              : source.sage
+baz           : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+AA_a          : constant.other.caps.python, meta.member.access.python, source.sage
+              : source.sage
+_AAA          : constant.other.caps.python, source.sage
+              : source.sage
+foo           : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+_AAA          : constant.other.caps.python, meta.member.access.python, source.sage
+QQQq          : source.sage
+              : source.sage
+QQQq123       : source.sage
+              : source.sage
+self          : source.sage, variable.language.special.self.python
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+FOOO          : meta.function-call.generic.python, meta.function-call.python, meta.member.access.python, source.sage
+(             : meta.function-call.python, meta.member.access.python, punctuation.definition.arguments.begin.python, source.sage
+)             : meta.function-call.python, meta.member.access.python, punctuation.definition.arguments.end.python, source.sage
+              : source.sage
+_             : source.sage
+              : source.sage
+_1            : source.sage
+              : source.sage
+__1           : source.sage
+              : source.sage
+_1A           : source.sage
+              : source.sage
+__1A          : source.sage
+              : source.sage
+_a            : source.sage
+              : source.sage
+__a           : source.sage
+              : source.sage
+__            : source.sage
+              : source.sage
+___           : source.sage
+              : source.sage
+___a          : source.sage
+              : source.sage
+___1          : source.sage
+              : source.sage
+__aA          : source.sage
+              : source.sage
+___Aa         : source.sage

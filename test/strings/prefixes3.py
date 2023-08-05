@@ -8,61 +8,61 @@ a = Rb'S T R'
 
 
 
-a             : source.python
-              : source.python
-=             : keyword.operator.assignment.python, source.python
-              : source.python
-Ur            : invalid.deprecated.prefix.python, source.python, string.regexp.quoted.single.python
-'             : punctuation.definition.string.begin.python, source.python, string.regexp.quoted.single.python
-S T R         : source.python, string.regexp.quoted.single.python
-'             : punctuation.definition.string.end.python, source.python, string.regexp.quoted.single.python
-a             : source.python
-              : source.python
-=             : keyword.operator.assignment.python, source.python
-              : source.python
-UR            : invalid.deprecated.prefix.python, source.python, string.quoted.raw.single.python
-'             : punctuation.definition.string.begin.python, source.python, string.quoted.raw.single.python
-S T R         : source.python, string.quoted.raw.single.python
-'             : punctuation.definition.string.end.python, source.python, string.quoted.raw.single.python
-a             : source.python
-              : source.python
-=             : keyword.operator.assignment.python, source.python
-              : source.python
-uB            : source.python
-'             : punctuation.definition.string.begin.python, source.python, string.quoted.single.python
-S T R         : source.python, string.quoted.single.python
-'             : punctuation.definition.string.end.python, source.python, string.quoted.single.python
-a             : source.python
-              : source.python
-=             : keyword.operator.assignment.python, source.python
-              : source.python
-R             : invalid.illegal.prefix.python, source.python, string.quoted.single.python
-u             : source.python, storage.type.string.python, string.quoted.single.python
-'             : punctuation.definition.string.begin.python, source.python, string.quoted.single.python
-S T R         : source.python, string.quoted.single.python
-'             : punctuation.definition.string.end.python, source.python, string.quoted.single.python
-a             : source.python
-              : source.python
-=             : keyword.operator.assignment.python, source.python
-              : source.python
-R             : invalid.illegal.prefix.python, source.python, string.quoted.single.python
-U             : source.python, storage.type.string.python, string.quoted.single.python
-'             : punctuation.definition.string.begin.python, source.python, string.quoted.single.python
-S T R         : source.python, string.quoted.single.python
-'             : punctuation.definition.string.end.python, source.python, string.quoted.single.python
-a             : source.python
-              : source.python
-=             : keyword.operator.assignment.python, source.python
-              : source.python
-bR            : source.python, storage.type.string.python, string.quoted.raw.binary.single.python
-'             : punctuation.definition.string.begin.python, source.python, string.quoted.raw.binary.single.python
-S T R         : source.python, string.quoted.raw.binary.single.python
-'             : punctuation.definition.string.end.python, source.python, string.quoted.raw.binary.single.python
-a             : source.python
-              : source.python
-=             : keyword.operator.assignment.python, source.python
-              : source.python
-Rb            : source.python, storage.type.string.python, string.quoted.raw.binary.single.python
-'             : punctuation.definition.string.begin.python, source.python, string.quoted.raw.binary.single.python
-S T R         : source.python, string.quoted.raw.binary.single.python
-'             : punctuation.definition.string.end.python, source.python, string.quoted.raw.binary.single.python
+a             : source.sage
+              : source.sage
+=             : keyword.operator.assignment.python, source.sage
+              : source.sage
+Ur            : invalid.deprecated.prefix.python, source.sage, string.regexp.quoted.single.python
+'             : punctuation.definition.string.begin.python, source.sage, string.regexp.quoted.single.python
+S T R         : source.sage, string.regexp.quoted.single.python
+'             : punctuation.definition.string.end.python, source.sage, string.regexp.quoted.single.python
+a             : source.sage
+              : source.sage
+=             : keyword.operator.assignment.python, source.sage
+              : source.sage
+UR            : invalid.deprecated.prefix.python, source.sage, string.quoted.raw.single.python
+'             : punctuation.definition.string.begin.python, source.sage, string.quoted.raw.single.python
+S T R         : source.sage, string.quoted.raw.single.python
+'             : punctuation.definition.string.end.python, source.sage, string.quoted.raw.single.python
+a             : source.sage
+              : source.sage
+=             : keyword.operator.assignment.python, source.sage
+              : source.sage
+uB            : source.sage
+'             : punctuation.definition.string.begin.python, source.sage, string.quoted.single.python
+S T R         : source.sage, string.quoted.single.python
+'             : punctuation.definition.string.end.python, source.sage, string.quoted.single.python
+a             : source.sage
+              : source.sage
+=             : keyword.operator.assignment.python, source.sage
+              : source.sage
+R             : invalid.illegal.prefix.python, source.sage, string.quoted.single.python
+u             : source.sage, storage.type.string.python, string.quoted.single.python
+'             : punctuation.definition.string.begin.python, source.sage, string.quoted.single.python
+S T R         : source.sage, string.quoted.single.python
+'             : punctuation.definition.string.end.python, source.sage, string.quoted.single.python
+a             : source.sage
+              : source.sage
+=             : keyword.operator.assignment.python, source.sage
+              : source.sage
+R             : invalid.illegal.prefix.python, source.sage, string.quoted.single.python
+U             : source.sage, storage.type.string.python, string.quoted.single.python
+'             : punctuation.definition.string.begin.python, source.sage, string.quoted.single.python
+S T R         : source.sage, string.quoted.single.python
+'             : punctuation.definition.string.end.python, source.sage, string.quoted.single.python
+a             : source.sage
+              : source.sage
+=             : keyword.operator.assignment.python, source.sage
+              : source.sage
+bR            : source.sage, storage.type.string.python, string.quoted.raw.binary.single.python
+'             : punctuation.definition.string.begin.python, source.sage, string.quoted.raw.binary.single.python
+S T R         : source.sage, string.quoted.raw.binary.single.python
+'             : punctuation.definition.string.end.python, source.sage, string.quoted.raw.binary.single.python
+a             : source.sage
+              : source.sage
+=             : keyword.operator.assignment.python, source.sage
+              : source.sage
+Rb            : source.sage, storage.type.string.python, string.quoted.raw.binary.single.python
+'             : punctuation.definition.string.begin.python, source.sage, string.quoted.raw.binary.single.python
+S T R         : source.sage, string.quoted.raw.binary.single.python
+'             : punctuation.definition.string.end.python, source.sage, string.quoted.raw.binary.single.python

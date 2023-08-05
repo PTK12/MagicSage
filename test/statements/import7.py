@@ -3,18 +3,18 @@ from importing import *
 
 
 
-from          : keyword.control.import.python, source.python
-              : source.python
-.             : punctuation.separator.period.python, source.python
-importing     : source.python
-              : source.python
-import        : keyword.control.import.python, source.python
-              : source.python
-*             : keyword.operator.arithmetic.python, source.python
-from          : keyword.control.import.python, source.python
-              : source.python
-importing     : source.python
-              : source.python
-import        : keyword.control.import.python, source.python
-              : source.python
-*             : keyword.operator.arithmetic.python, source.python
+from          : keyword.control.import.python, source.sage
+              : source.sage
+.             : punctuation.separator.period.python, source.sage
+importing     : source.sage
+              : source.sage
+import        : keyword.control.import.python, source.sage
+              : source.sage
+*             : keyword.operator.arithmetic.python, source.sage
+from          : keyword.control.import.python, source.sage
+              : source.sage
+importing     : source.sage
+              : source.sage
+import        : keyword.control.import.python, source.sage
+              : source.sage
+*             : keyword.operator.arithmetic.python, source.sage

@@ -9,40 +9,40 @@ except Exception as exc:
 
 
 
-try           : keyword.control.flow.python, source.python
-:             : punctuation.separator.colon.python, source.python
-              : source.python
-import        : keyword.control.import.python, source.python
-              : source.python
-\             : punctuation.separator.continuation.line.python, source.python
-              : source.python
-                     : source.python
-time          : source.python
-              : source.python
-as            : keyword.control.import.python, source.python
-              : source.python
-ham           : source.python
-,             : punctuation.separator.element.python, source.python
-              : source.python
-\             : punctuation.separator.continuation.line.python, source.python
-              : source.python
-                     : source.python
-datetime      : source.python
-              : source.python
-\             : punctuation.separator.continuation.line.python, source.python
-              : source.python
-              : source.python
-#             : comment.line.number-sign.python, punctuation.definition.comment.python, source.python
-              : comment.line.number-sign.python, source.python
-XXX           : comment.line.number-sign.python, keyword.codetag.notation.python, source.python
-: comment at the end of import : comment.line.number-sign.python, source.python
-except        : keyword.control.flow.python, source.python
-              : source.python
-Exception     : source.python, support.type.exception.python
-              : source.python
-as            : keyword.control.flow.python, source.python
-              : source.python
-exc           : source.python
-:             : punctuation.separator.colon.python, source.python
-              : source.python
-pass          : keyword.control.flow.python, source.python
+try           : keyword.control.flow.python, source.sage
+:             : punctuation.separator.colon.python, source.sage
+              : source.sage
+import        : keyword.control.import.python, source.sage
+              : source.sage
+\             : punctuation.separator.continuation.line.python, source.sage
+              : source.sage
+                     : source.sage
+time          : source.sage
+              : source.sage
+as            : keyword.control.import.python, source.sage
+              : source.sage
+ham           : source.sage
+,             : punctuation.separator.element.python, source.sage
+              : source.sage
+\             : punctuation.separator.continuation.line.python, source.sage
+              : source.sage
+                     : source.sage
+datetime      : source.sage
+              : source.sage
+\             : punctuation.separator.continuation.line.python, source.sage
+              : source.sage
+              : source.sage
+#             : comment.line.number-sign.python, punctuation.definition.comment.python, source.sage
+              : comment.line.number-sign.python, source.sage
+XXX           : comment.line.number-sign.python, keyword.codetag.notation.python, source.sage
+: comment at the end of import : comment.line.number-sign.python, source.sage
+except        : keyword.control.flow.python, source.sage
+              : source.sage
+Exception     : source.sage, support.type.exception.python
+              : source.sage
+as            : keyword.control.flow.python, source.sage
+              : source.sage
+exc           : source.sage
+:             : punctuation.separator.colon.python, source.sage
+              : source.sage
+pass          : keyword.control.flow.python, source.sage

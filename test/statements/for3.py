@@ -4,35 +4,35 @@ for(a, b), c, invariable in[2 in q, 2 in w]:
 
 
 
-for           : keyword.control.flow.python, source.python
-(             : punctuation.parenthesis.begin.python, source.python
-a             : source.python
-,             : punctuation.separator.element.python, source.python
-              : source.python
-b             : source.python
-)             : punctuation.parenthesis.end.python, source.python
-,             : punctuation.separator.element.python, source.python
-              : source.python
-c             : source.python
-,             : punctuation.separator.element.python, source.python
-              : source.python
-invariable    : source.python
-              : source.python
-in            : keyword.control.flow.python, source.python
-[             : punctuation.definition.list.begin.python, source.python
-2             : constant.numeric.dec.python, source.python
-              : source.python
-in            : keyword.operator.logical.python, source.python
-              : source.python
-q             : source.python
-,             : punctuation.separator.element.python, source.python
-              : source.python
-2             : constant.numeric.dec.python, source.python
-              : source.python
-in            : keyword.operator.logical.python, source.python
-              : source.python
-w             : source.python
-]             : punctuation.definition.list.end.python, source.python
-:             : punctuation.separator.colon.python, source.python
-              : source.python
-pass          : keyword.control.flow.python, source.python
+for           : keyword.control.flow.python, source.sage
+(             : punctuation.parenthesis.begin.python, source.sage
+a             : source.sage
+,             : punctuation.separator.element.python, source.sage
+              : source.sage
+b             : source.sage
+)             : punctuation.parenthesis.end.python, source.sage
+,             : punctuation.separator.element.python, source.sage
+              : source.sage
+c             : source.sage
+,             : punctuation.separator.element.python, source.sage
+              : source.sage
+invariable    : source.sage
+              : source.sage
+in            : keyword.control.flow.python, source.sage
+[             : punctuation.definition.list.begin.python, source.sage
+2             : constant.numeric.dec.python, source.sage
+              : source.sage
+in            : keyword.operator.logical.python, source.sage
+              : source.sage
+q             : source.sage
+,             : punctuation.separator.element.python, source.sage
+              : source.sage
+2             : constant.numeric.dec.python, source.sage
+              : source.sage
+in            : keyword.operator.logical.python, source.sage
+              : source.sage
+w             : source.sage
+]             : punctuation.definition.list.end.python, source.sage
+:             : punctuation.separator.colon.python, source.sage
+              : source.sage
+pass          : keyword.control.flow.python, source.sage

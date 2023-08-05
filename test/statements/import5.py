@@ -11,38 +11,38 @@ def bar():
 
 
 
-from          : keyword.control.import.python, source.python
-.             : punctuation.separator.period.python, source.python
-foo           : source.python
-              : source.python
-import        : keyword.control.import.python, source.python
-              : source.python
-d             : source.python
-from          : keyword.control.import.python, source.python
-.             : punctuation.separator.period.python, source.python
-import        : keyword.control.import.python, source.python
-              : source.python
-a             : source.python
-              : source.python
-foo           : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-import        : keyword.control.import.python, meta.member.access.python, source.python
-              : source.python
-raise         : keyword.control.flow.python, source.python
-              : source.python
-Exception     : source.python, support.type.exception.python
-              : source.python
-from          : keyword.control.flow.python, source.python
-              : source.python
-Foo           : source.python
-              : source.python
-def           : meta.function.python, source.python, storage.type.function.python
-              : meta.function.python, source.python
-bar           : entity.name.function.python, meta.function.python, source.python
-(             : meta.function.parameters.python, meta.function.python, punctuation.definition.parameters.begin.python, source.python
-)             : meta.function.parameters.python, meta.function.python, punctuation.definition.parameters.end.python, source.python
-:             : meta.function.python, punctuation.section.function.begin.python, source.python
-              : source.python
-yield from    : keyword.control.flow.python, source.python
-              : source.python
-baz           : source.python
+from          : keyword.control.import.python, source.sage
+.             : punctuation.separator.period.python, source.sage
+foo           : source.sage
+              : source.sage
+import        : keyword.control.import.python, source.sage
+              : source.sage
+d             : source.sage
+from          : keyword.control.import.python, source.sage
+.             : punctuation.separator.period.python, source.sage
+import        : keyword.control.import.python, source.sage
+              : source.sage
+a             : source.sage
+              : source.sage
+foo           : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+import        : keyword.control.import.python, meta.member.access.python, source.sage
+              : source.sage
+raise         : keyword.control.flow.python, source.sage
+              : source.sage
+Exception     : source.sage, support.type.exception.python
+              : source.sage
+from          : keyword.control.flow.python, source.sage
+              : source.sage
+Foo           : source.sage
+              : source.sage
+def           : meta.function.python, source.sage, storage.type.function.python
+              : meta.function.python, source.sage
+bar           : entity.name.function.python, meta.function.python, source.sage
+(             : meta.function.parameters.python, meta.function.python, punctuation.definition.parameters.begin.python, source.sage
+)             : meta.function.parameters.python, meta.function.python, punctuation.definition.parameters.end.python, source.sage
+:             : meta.function.python, punctuation.section.function.begin.python, source.sage
+              : source.sage
+yield from    : keyword.control.flow.python, source.sage
+              : source.sage
+baz           : source.sage

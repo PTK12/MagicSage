@@ -7,37 +7,37 @@ else:
 
 
 
-if            : keyword.control.flow.python, source.python
-              : source.python
-(             : punctuation.parenthesis.begin.python, source.python
-a             : source.python
-              : source.python
-if            : keyword.control.flow.python, source.python
-              : source.python
-b             : source.python
-              : source.python
-else          : keyword.control.flow.python, source.python
-              : source.python
-c             : source.python
-)             : punctuation.parenthesis.end.python, source.python
-:             : punctuation.separator.colon.python, source.python
-              : source.python
-1             : constant.numeric.dec.python, source.python
-elif          : keyword.control.flow.python, source.python
-              : source.python
-b             : source.python
-              : source.python
-or            : keyword.operator.logical.python, source.python
-              : source.python
-c             : source.python
-              : source.python
-and           : keyword.operator.logical.python, source.python
-              : source.python
-d             : source.python
-:             : punctuation.separator.colon.python, source.python
-              : source.python
-2             : constant.numeric.dec.python, source.python
-else          : keyword.control.flow.python, source.python
-:             : punctuation.separator.colon.python, source.python
-              : source.python
-3             : constant.numeric.dec.python, source.python
+if            : keyword.control.flow.python, source.sage
+              : source.sage
+(             : punctuation.parenthesis.begin.python, source.sage
+a             : source.sage
+              : source.sage
+if            : keyword.control.flow.python, source.sage
+              : source.sage
+b             : source.sage
+              : source.sage
+else          : keyword.control.flow.python, source.sage
+              : source.sage
+c             : source.sage
+)             : punctuation.parenthesis.end.python, source.sage
+:             : punctuation.separator.colon.python, source.sage
+              : source.sage
+1             : constant.numeric.dec.python, source.sage
+elif          : keyword.control.flow.python, source.sage
+              : source.sage
+b             : source.sage
+              : source.sage
+or            : keyword.operator.logical.python, source.sage
+              : source.sage
+c             : source.sage
+              : source.sage
+and           : keyword.operator.logical.python, source.sage
+              : source.sage
+d             : source.sage
+:             : punctuation.separator.colon.python, source.sage
+              : source.sage
+2             : constant.numeric.dec.python, source.sage
+else          : keyword.control.flow.python, source.sage
+:             : punctuation.separator.colon.python, source.sage
+              : source.sage
+3             : constant.numeric.dec.python, source.sage

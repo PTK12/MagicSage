@@ -8,18 +8,18 @@ multiline "binary" string \
 
 
 
-a             : source.python
-              : source.python
-=             : keyword.operator.assignment.python, source.python
-              : source.python
-b             : source.python, storage.type.string.python, string.quoted.binary.multi.python
-"""           : punctuation.definition.string.begin.python, source.python, string.quoted.binary.multi.python
-multiline "binary" string  : source.python, string.quoted.binary.multi.python
-\             : constant.language.python, source.python, string.quoted.binary.multi.python
-              : source.python, string.quoted.binary.multi.python
-              : source.python, string.quoted.binary.multi.python
-\xf1          : constant.character.escape.python, source.python, string.quoted.binary.multi.python
- \u1234aaaa \U1234aaaa : source.python, string.quoted.binary.multi.python
-              : source.python, string.quoted.binary.multi.python
-    \N{BLACK SPADE SUIT} : source.python, string.quoted.binary.multi.python
-"""           : punctuation.definition.string.end.python, source.python, string.quoted.binary.multi.python
+a             : source.sage
+              : source.sage
+=             : keyword.operator.assignment.python, source.sage
+              : source.sage
+b             : source.sage, storage.type.string.python, string.quoted.binary.multi.python
+"""           : punctuation.definition.string.begin.python, source.sage, string.quoted.binary.multi.python
+multiline "binary" string  : source.sage, string.quoted.binary.multi.python
+\             : constant.language.python, source.sage, string.quoted.binary.multi.python
+              : source.sage, string.quoted.binary.multi.python
+              : source.sage, string.quoted.binary.multi.python
+\xf1          : constant.character.escape.python, source.sage, string.quoted.binary.multi.python
+ \u1234aaaa \U1234aaaa : source.sage, string.quoted.binary.multi.python
+              : source.sage, string.quoted.binary.multi.python
+    \N{BLACK SPADE SUIT} : source.sage, string.quoted.binary.multi.python
+"""           : punctuation.definition.string.end.python, source.sage, string.quoted.binary.multi.python

@@ -3,9 +3,9 @@ yield a
 
 
 
-yield  from   : keyword.control.flow.python, source.python
-              : source.python
-a             : source.python
-yield         : keyword.control.flow.python, source.python
-              : source.python
-a             : source.python
+yield  from   : keyword.control.flow.python, source.sage
+              : source.sage
+a             : source.sage
+yield         : keyword.control.flow.python, source.sage
+              : source.sage
+a             : source.sage

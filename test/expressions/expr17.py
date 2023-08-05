@@ -8,22 +8,22 @@ a(--a)
 
 
 
-a             : source.python
-++            : invalid.illegal.operator.python, source.python
-b             : source.python
---            : invalid.illegal.operator.python, source.python
-++            : invalid.illegal.operator.python, source.python
-a             : source.python
---            : invalid.illegal.operator.python, source.python
-b             : source.python
-a             : source.python
-++            : invalid.illegal.operator.python, source.python
-c             : source.python
-c             : source.python
---            : invalid.illegal.operator.python, source.python
-b             : source.python
-a             : meta.function-call.generic.python, meta.function-call.python, source.python
-(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.python
---            : invalid.illegal.operator.python, meta.function-call.arguments.python, meta.function-call.python, source.python
-a             : meta.function-call.arguments.python, meta.function-call.python, source.python
-)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.python
+a             : source.sage
+++            : invalid.illegal.operator.python, source.sage
+b             : source.sage
+--            : invalid.illegal.operator.python, source.sage
+++            : invalid.illegal.operator.python, source.sage
+a             : source.sage
+--            : invalid.illegal.operator.python, source.sage
+b             : source.sage
+a             : source.sage
+++            : invalid.illegal.operator.python, source.sage
+c             : source.sage
+c             : source.sage
+--            : invalid.illegal.operator.python, source.sage
+b             : source.sage
+a             : meta.function-call.generic.python, meta.function-call.python, source.sage
+(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.sage
+--            : invalid.illegal.operator.python, meta.function-call.arguments.python, meta.function-call.python, source.sage
+a             : meta.function-call.arguments.python, meta.function-call.python, source.sage
+)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.sage
