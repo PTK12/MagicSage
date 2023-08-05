@@ -6,8 +6,8 @@ MagicSage adds SageMath support to [MagicPython](https://github.com/MagicStack/M
 
 > NOTE: MagicSage is an unofficial implementation of MagicPython for SageMath.
 
-Comparison:
-![MagicSage (left) vs MagicPython (right) syntax highlighting on a SageMath script.](./screenshot.png)
+Comparison between MagicSage (left) vs MagicPython (right):
+![Comparison between syntax highlighting on a SageMath script.](./screenshot.png)
 
 Theme: [Tokyo Night Storm](https://github.com/enkia/tokyo-night-vscode-theme)
 
