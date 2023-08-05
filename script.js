@@ -7,4 +7,4 @@ if (process.argv.length <= 2) {
 }
 
 var obj = plist.parse(fs.readFileSync(process.argv[2], 'utf8'));
-console.log(JSON.stringify(obj));
+console.log(JSON.stringify(obj, null, '\t'));
