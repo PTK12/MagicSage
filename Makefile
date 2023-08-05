@@ -42,3 +42,10 @@ publish: test
 	apm publish patch
 	rm -rf ./node_modules/syntaxdev
 	vsce publish
+
+new-all: devenv new-release
+
+new-release: release
+	mkdir release
+	node ./script.js ./grammars/MagicPython.tmLanguage > ./release/MagicPython.tmLanguage.json
+	node ./script.js ./grammars/MagicRegExp.tmLanguage > ./release/MagicRegExp.tmLanguage.json
