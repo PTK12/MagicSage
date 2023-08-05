@@ -8,14 +8,14 @@
 
 
 3.14          : constant.numeric.float.python, source.sage
-j             : constant.numeric.float.python, source.sage, storage.type.imaginary.number.python
+j             : constant.numeric.float.python, source.sage, storage.type.number.python
 10.           : constant.numeric.float.python, source.sage
-j             : constant.numeric.float.python, source.sage, storage.type.imaginary.number.python
+j             : constant.numeric.float.python, source.sage, storage.type.number.python
 10            : constant.numeric.dec.python, source.sage
-j             : constant.numeric.dec.python, source.sage, storage.type.imaginary.number.python
+j             : constant.numeric.dec.python, source.sage, storage.type.number.python
 .001          : constant.numeric.float.python, source.sage
-j             : constant.numeric.float.python, source.sage, storage.type.imaginary.number.python
+j             : constant.numeric.float.python, source.sage, storage.type.number.python
 1e100         : constant.numeric.float.python, source.sage
-j             : constant.numeric.float.python, source.sage, storage.type.imaginary.number.python
+j             : constant.numeric.float.python, source.sage, storage.type.number.python
 3.14e-10      : constant.numeric.float.python, source.sage
-j             : constant.numeric.float.python, source.sage, storage.type.imaginary.number.python
+j             : constant.numeric.float.python, source.sage, storage.type.number.python

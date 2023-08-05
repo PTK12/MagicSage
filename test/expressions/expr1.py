@@ -12,7 +12,7 @@ b             : source.sage
               : source.sage
 c             : source.sage
               : source.sage
-^             : keyword.operator.bitwise.python, source.sage
+^             : keyword.operator.arithmetic.python, source.sage
               : source.sage
 d             : source.sage
               : source.sage
