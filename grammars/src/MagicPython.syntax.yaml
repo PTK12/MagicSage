@@ -530,7 +530,7 @@ repository:
       - name: punctuation.separator.element.python
         match: ","
       - name: punctuation.separator.ellipsis
-        match: "\.\."
+        match: \.\.
 
   literal:
     patterns:
