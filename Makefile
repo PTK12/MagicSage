@@ -27,6 +27,8 @@ devenv:
 	npm install --dev
 
 release:
+	mkdir release
+
 	./node_modules/.bin/syntaxdev build-plist --in grammars/src/MagicPython.syntax.yaml --out ./release/MagicPython.tmLanguage
 	./node_modules/.bin/syntaxdev build-plist --in grammars/src/MagicRegExp.syntax.yaml --out ./release/MagicRegExp.tmLanguage
 
@@ -46,6 +48,5 @@ publish: test
 new-all: devenv new-release
 
 new-release: release
-	mkdir release
 	node ./script.js ./release/MagicPython.tmLanguage > ./release/MagicPython.tmLanguage.json
 	node ./script.js ./release/MagicRegExp.tmLanguage > ./release/MagicRegExp.tmLanguage.json
