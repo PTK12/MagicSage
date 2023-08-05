@@ -17,6 +17,9 @@ jobs:
     - name: Run everything
       run: make new-all
 
+    - name: Test
+      run: make test
+
     - uses: actions/upload-artifact@v3
       with:
         name: release
