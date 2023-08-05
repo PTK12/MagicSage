@@ -510,6 +510,8 @@ repository:
 
           | (:=)                                                 (?# 6)
 
+          | (\\(?=[ \t]*[^ \t;#\n]))                             (?# 7)
+
     captures:
       '1': {name: keyword.operator.logical.python}
       '2': {name: keyword.control.flow.python}
@@ -517,6 +519,7 @@ repository:
       '4': {name: keyword.operator.arithmetic.python}
       '5': {name: keyword.operator.comparison.python}
       '6': {name: keyword.operator.assignment.python}
+      '7': {name: keyword.operator.arithmetic.python}
 
   punctuation:
     patterns:
