@@ -27,11 +27,11 @@ devenv:
 	npm install --dev
 
 release:
-	./node_modules/.bin/syntaxdev build-plist --in grammars/src/MagicPython.syntax.yaml --out grammars/MagicPython.tmLanguage
-	./node_modules/.bin/syntaxdev build-plist --in grammars/src/MagicRegExp.syntax.yaml --out grammars/MagicRegExp.tmLanguage
+	./node_modules/.bin/syntaxdev build-plist --in grammars/src/MagicPython.syntax.yaml --out ./release/MagicPython.tmLanguage
+	./node_modules/.bin/syntaxdev build-plist --in grammars/src/MagicRegExp.syntax.yaml --out ./release/MagicRegExp.tmLanguage
 
-	./node_modules/.bin/syntaxdev build-cson --in grammars/src/MagicPython.syntax.yaml --out grammars/MagicPython.cson
-	./node_modules/.bin/syntaxdev build-cson --in grammars/src/MagicRegExp.syntax.yaml --out grammars/MagicRegExp.cson
+	./node_modules/.bin/syntaxdev build-cson --in grammars/src/MagicPython.syntax.yaml --out ./release/MagicPython.cson
+	./node_modules/.bin/syntaxdev build-cson --in grammars/src/MagicRegExp.syntax.yaml --out ./release/MagicRegExp.cson
 
 	./node_modules/.bin/syntaxdev scopes --syntax grammars/src/MagicPython.syntax.yaml > misc/scopes
 
@@ -47,5 +47,5 @@ new-all: devenv new-release
 
 new-release: release
 	mkdir release
-	node ./script.js ./grammars/MagicPython.tmLanguage > ./release/MagicPython.tmLanguage.json
-	node ./script.js ./grammars/MagicRegExp.tmLanguage > ./release/MagicRegExp.tmLanguage.json
+	node ./script.js ./release/MagicPython.tmLanguage > ./release/MagicPython.tmLanguage.json
+	node ./script.js ./release/MagicRegExp.tmLanguage > ./release/MagicRegExp.tmLanguage.json

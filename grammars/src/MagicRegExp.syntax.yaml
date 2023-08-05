@@ -1,6 +1,6 @@
 ---
 name: MagicRegExp
-scopeName: source.regexp.python
+scopeName: source.regexp.sage
 fileTypes: [re]
 uuid: 39e15186-71e6-11e5-b82c-7c6d62900c7c
 
