@@ -7,9 +7,9 @@ def foo(): pass
               : source.sage
 +             : keyword.operator.arithmetic.python, source.sage
               : source.sage
-\             : punctuation.separator.continuation.line.python, source.sage
+\             : keyword.operator.arithmetic.python, source.sage
               : source.sage
-sdgfsdf       : invalid.illegal.line.continuation.python, source.sage
+sdgfsdf       : source.sage
 def           : meta.function.python, source.sage, storage.type.function.python
               : meta.function.python, source.sage
 foo           : entity.name.function.python, meta.function.python, source.sage
