@@ -4,29 +4,29 @@ class Foo:
 
 
 
-class         : meta.class.python, source.python, storage.type.class.python
-              : meta.class.python, source.python
-Foo           : entity.name.type.class.python, meta.class.python, source.python
-:             : meta.class.python, punctuation.section.class.begin.python, source.python
-              : source.python
-__slots__     : source.python, support.variable.magic.python
-              : source.python
-=             : keyword.operator.assignment.python, source.python
-              : source.python
-(             : punctuation.parenthesis.begin.python, source.python
-)             : punctuation.parenthesis.end.python, source.python
-              : source.python
-__match_args__ : source.python, support.variable.magic.python
-              : source.python
-=             : keyword.operator.assignment.python, source.python
-              : source.python
-(             : punctuation.parenthesis.begin.python, source.python
-'             : punctuation.definition.string.begin.python, source.python, string.quoted.single.python
-key           : source.python, string.quoted.single.python
-'             : punctuation.definition.string.end.python, source.python, string.quoted.single.python
-,             : punctuation.separator.element.python, source.python
-              : source.python
-'             : punctuation.definition.string.begin.python, source.python, string.quoted.single.python
-name          : source.python, string.quoted.single.python
-'             : punctuation.definition.string.end.python, source.python, string.quoted.single.python
-)             : punctuation.parenthesis.end.python, source.python
+class         : meta.class.python, source.sage, storage.type.class.python
+              : meta.class.python, source.sage
+Foo           : entity.name.type.class.python, meta.class.python, source.sage
+:             : meta.class.python, punctuation.section.class.begin.python, source.sage
+              : source.sage
+__slots__     : source.sage, support.variable.magic.python
+              : source.sage
+=             : keyword.operator.assignment.python, source.sage
+              : source.sage
+(             : punctuation.parenthesis.begin.python, source.sage
+)             : punctuation.parenthesis.end.python, source.sage
+              : source.sage
+__match_args__ : source.sage, support.variable.magic.python
+              : source.sage
+=             : keyword.operator.assignment.python, source.sage
+              : source.sage
+(             : punctuation.parenthesis.begin.python, source.sage
+'             : punctuation.definition.string.begin.python, source.sage, string.quoted.single.python
+key           : source.sage, string.quoted.single.python
+'             : punctuation.definition.string.end.python, source.sage, string.quoted.single.python
+,             : punctuation.separator.element.python, source.sage
+              : source.sage
+'             : punctuation.definition.string.begin.python, source.sage, string.quoted.single.python
+name          : source.sage, string.quoted.single.python
+'             : punctuation.definition.string.end.python, source.sage, string.quoted.single.python
+)             : punctuation.parenthesis.end.python, source.sage

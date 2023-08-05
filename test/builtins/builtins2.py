@@ -3,25 +3,25 @@ file reduce intern raw_input unicode cmp basestring execfile long xrange apply
 
 
 
-Error         : source.python
-file          : source.python, variable.legacy.builtin.python
-              : source.python
-reduce        : source.python, variable.legacy.builtin.python
-              : source.python
-intern        : source.python, variable.legacy.builtin.python
-              : source.python
-raw_input     : source.python, variable.legacy.builtin.python
-              : source.python
-unicode       : source.python, variable.legacy.builtin.python
-              : source.python
-cmp           : source.python, variable.legacy.builtin.python
-              : source.python
-basestring    : source.python, variable.legacy.builtin.python
-              : source.python
-execfile      : source.python, variable.legacy.builtin.python
-              : source.python
-long          : source.python, variable.legacy.builtin.python
-              : source.python
-xrange        : source.python, variable.legacy.builtin.python
-              : source.python
-apply         : source.python
+Error         : source.sage
+file          : source.sage, variable.legacy.builtin.python
+              : source.sage
+reduce        : source.sage, variable.legacy.builtin.python
+              : source.sage
+intern        : source.sage, variable.legacy.builtin.python
+              : source.sage
+raw_input     : source.sage, variable.legacy.builtin.python
+              : source.sage
+unicode       : source.sage, variable.legacy.builtin.python
+              : source.sage
+cmp           : source.sage, variable.legacy.builtin.python
+              : source.sage
+basestring    : source.sage, variable.legacy.builtin.python
+              : source.sage
+execfile      : source.sage, variable.legacy.builtin.python
+              : source.sage
+long          : source.sage, variable.legacy.builtin.python
+              : source.sage
+xrange        : source.sage, variable.legacy.builtin.python
+              : source.sage
+apply         : source.sage

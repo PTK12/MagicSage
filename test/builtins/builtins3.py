@@ -48,151 +48,151 @@ some.__notspecial__
 
 
 
-__all__       : source.python, support.variable.magic.python
-              : source.python
-=             : keyword.operator.assignment.python, source.python
-              : source.python
-[             : punctuation.definition.list.begin.python, source.python
-'             : punctuation.definition.string.begin.python, source.python, string.quoted.single.python
-bar           : source.python, string.quoted.single.python
-'             : punctuation.definition.string.end.python, source.python, string.quoted.single.python
-,             : punctuation.separator.element.python, source.python
-              : source.python
-'             : punctuation.definition.string.begin.python, source.python, string.quoted.single.python
-baz           : source.python, string.quoted.single.python
-'             : punctuation.definition.string.end.python, source.python, string.quoted.single.python
-]             : punctuation.definition.list.end.python, source.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__bases__     : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__class__     : meta.member.access.python, source.python, support.variable.magic.python
-assert        : keyword.control.flow.python, source.python
-              : source.python
-__debug__     : source.python, support.variable.magic.python
-__builtins__  : source.python, support.variable.magic.python
-__builtins__  : source.python, support.variable.magic.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-len           : meta.attribute.python, meta.member.access.python, source.python
-print         : meta.function-call.python, source.python, support.function.builtin.python
-(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.python
-__builtins__  : meta.function-call.arguments.python, meta.function-call.python, source.python, support.variable.magic.python
-)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__dict__      : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__doc__       : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__file__      : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__members__   : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__metaclass__ : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__methods__   : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__module__    : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__mro__       : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__name__      : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__slots__     : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__subclasses__ : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__version__   : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__weakref__   : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__qualname__  : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__code__      : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__wrapped__   : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__signature__ : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__defaults__  : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__func__      : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__self__      : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__kwdefaults__ : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__matmul__    : meta.member.access.python, source.python, support.function.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__imatmul__   : meta.member.access.python, source.python, support.function.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__rmatmul__   : meta.member.access.python, source.python, support.function.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__annotations__ : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__init_subclass__ : meta.member.access.python, source.python, support.function.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__set_name__  : meta.member.access.python, source.python, support.function.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__fspath__    : meta.member.access.python, source.python, support.function.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__classcell__ : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__bytes__     : meta.member.access.python, source.python, support.function.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__spec__      : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__path__      : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__prepare__   : meta.member.access.python, source.python, support.function.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__package__   : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__traceback__ : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__closure__   : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__globals__   : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__match_args__ : meta.member.access.python, source.python, support.variable.magic.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-__notspecial__ : meta.attribute.python, meta.member.access.python, source.python
+__all__       : source.sage, support.variable.magic.python
+              : source.sage
+=             : keyword.operator.assignment.python, source.sage
+              : source.sage
+[             : punctuation.definition.list.begin.python, source.sage
+'             : punctuation.definition.string.begin.python, source.sage, string.quoted.single.python
+bar           : source.sage, string.quoted.single.python
+'             : punctuation.definition.string.end.python, source.sage, string.quoted.single.python
+,             : punctuation.separator.element.python, source.sage
+              : source.sage
+'             : punctuation.definition.string.begin.python, source.sage, string.quoted.single.python
+baz           : source.sage, string.quoted.single.python
+'             : punctuation.definition.string.end.python, source.sage, string.quoted.single.python
+]             : punctuation.definition.list.end.python, source.sage
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__bases__     : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__class__     : meta.member.access.python, source.sage, support.variable.magic.python
+assert        : keyword.control.flow.python, source.sage
+              : source.sage
+__debug__     : source.sage, support.variable.magic.python
+__builtins__  : source.sage, support.variable.magic.python
+__builtins__  : source.sage, support.variable.magic.python
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+len           : meta.attribute.python, meta.member.access.python, source.sage
+print         : meta.function-call.python, source.sage, support.function.builtin.python
+(             : meta.function-call.python, punctuation.definition.arguments.begin.python, source.sage
+__builtins__  : meta.function-call.arguments.python, meta.function-call.python, source.sage, support.variable.magic.python
+)             : meta.function-call.python, punctuation.definition.arguments.end.python, source.sage
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__dict__      : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__doc__       : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__file__      : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__members__   : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__metaclass__ : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__methods__   : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__module__    : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__mro__       : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__name__      : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__slots__     : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__subclasses__ : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__version__   : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__weakref__   : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__qualname__  : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__code__      : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__wrapped__   : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__signature__ : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__defaults__  : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__func__      : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__self__      : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__kwdefaults__ : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__matmul__    : meta.member.access.python, source.sage, support.function.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__imatmul__   : meta.member.access.python, source.sage, support.function.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__rmatmul__   : meta.member.access.python, source.sage, support.function.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__annotations__ : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__init_subclass__ : meta.member.access.python, source.sage, support.function.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__set_name__  : meta.member.access.python, source.sage, support.function.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__fspath__    : meta.member.access.python, source.sage, support.function.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__classcell__ : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__bytes__     : meta.member.access.python, source.sage, support.function.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__spec__      : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__path__      : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__prepare__   : meta.member.access.python, source.sage, support.function.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__package__   : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__traceback__ : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__closure__   : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__globals__   : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__match_args__ : meta.member.access.python, source.sage, support.variable.magic.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+__notspecial__ : meta.attribute.python, meta.member.access.python, source.sage

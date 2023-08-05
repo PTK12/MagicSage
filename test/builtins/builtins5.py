@@ -8,20 +8,20 @@ some.
 
 
 
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-              : meta.member.access.python, source.python
-True          : keyword.illegal.name.python, meta.member.access.python, source.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-              : meta.member.access.python, source.python
-\             : meta.member.access.python, punctuation.separator.continuation.line.python, source.python
-              : meta.member.access.python, source.python
-              : meta.member.access.python, source.python
-True          : keyword.illegal.name.python, meta.member.access.python, source.python
-True          : constant.language.python, source.python
-some          : source.python
-.             : meta.member.access.python, punctuation.separator.period.python, source.python
-              : meta.member.access.python, source.python
-              : meta.member.access.python, source.python
-True          : keyword.illegal.name.python, meta.member.access.python, source.python
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+              : meta.member.access.python, source.sage
+True          : keyword.illegal.name.python, meta.member.access.python, source.sage
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+              : meta.member.access.python, source.sage
+\             : meta.member.access.python, punctuation.separator.continuation.line.python, source.sage
+              : meta.member.access.python, source.sage
+              : meta.member.access.python, source.sage
+True          : keyword.illegal.name.python, meta.member.access.python, source.sage
+True          : constant.language.python, source.sage
+some          : source.sage
+.             : meta.member.access.python, punctuation.separator.period.python, source.sage
+              : meta.member.access.python, source.sage
+              : meta.member.access.python, source.sage
+True          : keyword.illegal.name.python, meta.member.access.python, source.sage
