@@ -27,7 +27,7 @@ devenv:
 	npm install --dev
 
 release:
-	mkdir release
+	mkdir -p release
 
 	./node_modules/.bin/syntaxdev build-plist --in grammars/src/MagicSage.syntax.yaml --out ./release/MagicSage.tmLanguage
 	./node_modules/.bin/syntaxdev build-plist --in grammars/src/MagicRegExp.syntax.yaml --out ./release/MagicRegExp.tmLanguage
